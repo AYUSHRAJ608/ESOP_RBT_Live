@@ -1,0 +1,25 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr valign="middle" style="font-weight:bold;">
+			<th scope="col">EMP_NAME</th><th scope="col">ECODE</th><th scope="col">VID</th><th scope="col">V_DETAIL_ID</th><th scope="col">GRANT_NAME</th><th scope="col">VPERCENTAGE</th><th scope="col">GRANTED</th><th scope="col">VESTED</th><th scope="col">VESTED_PENDING</th><th scope="col">EXERCISED</th><th scope="col">EXERCISED_PENDING</th><th scope="col">SALE</th><th scope="col">LBV</th><th scope="col">LAV</th><th scope="col">TOTAL_LAPSE</th><th scope="col">STOCK_IN_HAND</th><th scope="col">VESTING_DATE</th><th scope="col">V_CYCLE</th><th scope="col">ID</th>
+		</tr><tr>
+			<td>Priyank Sapra</td><td>3711</td><td>1</td><td>1366</td><td>TRANCH6</td><td>TRANCH6V1 - 25%</td><td>8750</td><td>8750</td><td>0</td><td>17500</td><td>-8750</td><td>8750</td><td>0</td><td>0</td><td>0</td><td>8750</td><td>24-APR-2016</td><td>V1</td><td>37586</td>
+		</tr><tr>
+			<td>Priyank Sapra</td><td>3711</td><td>1</td><td>1367</td><td>TRANCH6</td><td>TRANCH6V2 - 25%</td><td>8750</td><td>8750</td><td>0</td><td>17500</td><td>-8750</td><td>8750</td><td>0</td><td>0</td><td>0</td><td>8750</td><td>24-APR-2017</td><td>V2</td><td>37587</td>
+		</tr><tr>
+			<td>Priyank Sapra</td><td>3711</td><td>1</td><td>1368</td><td>TRANCH6</td><td>TRANCH6V3 - 50%</td><td>17500</td><td>0</td><td>17500</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>0</td><td>24-APR-2018</td><td>V3</td><td>37588</td>
+		</tr><tr>
+			<td>Anurag Rastogi</td><td>4270</td><td>1</td><td>1366</td><td>TRANCH6</td><td>TRANCH6V1 - 25%</td><td>12500</td><td>12500</td><td>0</td><td>25000</td><td>-12500</td><td>0</td><td>0</td><td>0</td><td>0</td><td>25000</td><td>24-APR-2016</td><td>V1</td><td>37580</td>
+		</tr><tr>
+			<td>Anurag Rastogi</td><td>4270</td><td>1</td><td>1367</td><td>TRANCH6</td><td>TRANCH6V2 - 25%</td><td>12500</td><td>12500</td><td>0</td><td>25000</td><td>-12500</td><td>0</td><td>0</td><td>0</td><td>0</td><td>25000</td><td>24-APR-2017</td><td>V2</td><td>37581</td>
+		</tr><tr>
+			<td>Anurag Rastogi</td><td>4270</td><td>1</td><td>1368</td><td>TRANCH6</td><td>TRANCH6V3 - 50%</td><td>25000</td><td>25000</td><td>0</td><td>50000</td><td>-25000</td><td>0</td><td>0</td><td>0</td><td>0</td><td>50000</td><td>24-APR-2018</td><td>V3</td><td>37582</td>
+		</tr><tr>
+			<td>Dayananda Shetty</td><td>4280</td><td>1</td><td>1366</td><td>TRANCH6</td><td>TRANCH6V1 - 25%</td><td>12500</td><td>12500</td><td>0</td><td>25000</td><td>-12500</td><td>0</td><td>0</td><td>0</td><td>0</td><td>25000</td><td>24-APR-2016</td><td>V1</td><td>37583</td>
+		</tr><tr>
+			<td>Dayananda Shetty</td><td>4280</td><td>1</td><td>1367</td><td>TRANCH6</td><td>TRANCH6V2 - 25%</td><td>12500</td><td>12500</td><td>0</td><td>25000</td><td>-12500</td><td>0</td><td>0</td><td>0</td><td>0</td><td>25000</td><td>24-APR-2017</td><td>V2</td><td>37584</td>
+		</tr><tr>
+			<td>Dayananda Shetty</td><td>4280</td><td>1</td><td>1368</td><td>TRANCH6</td><td>TRANCH6V3 - 50%</td><td>25000</td><td>25000</td><td>0</td><td>50000</td><td>-25000</td><td>0</td><td>0</td><td>0</td><td>0</td><td>50000</td><td>24-APR-2018</td><td>V3</td><td>37585</td>
+		</tr>
+	</table>
+</div>

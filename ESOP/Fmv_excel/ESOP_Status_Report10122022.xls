@@ -1,0 +1,17 @@
+<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+	<tr>
+		<td>Sr No</td><td>ESOP Status as on Date</td><td>Number of Options</td>
+	</tr><tr>
+		<td>A</td><td>Total Vested</td><td>117500</td>
+	</tr><tr>
+		<td>B</td><td>Total Exercised</td><td>235000</td>
+	</tr><tr>
+		<td>C</td><td>Total Granted</td><td>117500</td>
+	</tr><tr>
+		<td>D</td><td>Total Sold</td><td>17500</td>
+	</tr><tr>
+		<td>E</td><td>Total Lapsed</td><td>0</td>
+	</tr><tr>
+		<td>F</td><td>STOCK_IN_HAND</td><td>217500</td>
+	</tr>
+</table>

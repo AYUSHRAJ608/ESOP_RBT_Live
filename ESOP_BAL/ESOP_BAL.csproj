@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{28E679AA-CE97-43DA-874E-A489081603D3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ESOP_BAL</RootNamespace>
+    <AssemblyName>ESOP_BAL</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AdminBAL.cs" />
+    <Compile Include="AuditBAL.cs" />
+    <Compile Include="BEmployeeMasterUpload.cs" />
+    <Compile Include="BEncyptionDecrption.cs" />
+    <Compile Include="CommonBAL.cs" />
+    <Compile Include="Dis_Allotment_ReportsBAL.cs" />
+    <Compile Include="EMailBAL.cs" />
+    <Compile Include="EmailLinkApp_RejectBAL.cs" />
+    <Compile Include="EmployeeBAL.cs" />
+    <Compile Include="employee_exerciseBAL.cs" />
+    <Compile Include="Employee_profileBAL.cs" />
+    <Compile Include="employee_saleBAL.cs" />
+    <Compile Include="Employee_secretarialBAL.cs" />
+    <Compile Include="exercise-reportBAL.cs" />
+    <Compile Include="Exercise_CancelBAL.cs" />
+    <Compile Include="FMVCreationBAL.cs" />
+    <Compile Include="GrandCreationBAL.cs" />
+    <Compile Include="Grant_CorrectionBAL.cs" />
+    <Compile Include="Grant_ReportBAL.cs" />
+    <Compile Include="HrapprovalBAL.cs" />
+    <Compile Include="HRMS_BAL.cs" />
+    <Compile Include="LetterConfigBAL.cs" />
+    <Compile Include="LetterEditBAL.cs" />
+    <Compile Include="LetterList_BAL.cs" />
+    <Compile Include="PresedentApprovalBAL.cs" />
+    <Compile Include="PresidentBAL.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sale-reportBAL.cs" />
+    <Compile Include="Secretarial_grant_approvalBAL.cs" />
+    <Compile Include="TaxBAL.cs" />
+    <Compile Include="UserBAL.cs" />
+    <Compile Include="ValuationBAL.cs" />
+    <Compile Include="vesting-approvalBAL.cs" />
+    <Compile Include="vesting-creation_BAL.cs" />
+    <Compile Include="Vesting_CorrectionBAL.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ESOP_BO\ESOP_BO.csproj">
+      <Project>{9a4921b9-09a0-4628-bf4b-671df3134c19}</Project>
+      <Name>ESOP_BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ESOP_DAL\ESOP_DAL.csproj">
+      <Project>{d2280905-7ce5-4daa-bd9b-d88e0c506b7e}</Project>
+      <Name>ESOP_DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\ESOP_BAL.dll" />
+    <Content Include="bin\Debug\ESOP_BAL.pdb" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

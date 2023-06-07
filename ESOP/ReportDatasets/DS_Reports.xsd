@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="DS_Reports" targetNamespace="http://tempuri.org/DS_Reports.xsd" xmlns:mstns="http://tempuri.org/DS_Reports.xsd" xmlns="http://tempuri.org/DS_Reports.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections />
+        <Tables />
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="DS_Reports" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="true" msprop:Generator_DataSetName="DS_Reports" msprop:Generator_UserDSName="DS_Reports">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="TBL_Grant_Details" msprop:Generator_TableClassName="TBL_Grant_DetailsDataTable" msprop:Generator_TableVarName="tableTBL_Grant_Details" msprop:Generator_RowChangedName="TBL_Grant_DetailsRowChanged" msprop:Generator_TablePropName="TBL_Grant_Details" msprop:Generator_RowDeletingName="TBL_Grant_DetailsRowDeleting" msprop:Generator_RowChangingName="TBL_Grant_DetailsRowChanging" msprop:Generator_RowEvHandlerName="TBL_Grant_DetailsRowChangeEventHandler" msprop:Generator_RowDeletedName="TBL_Grant_DetailsRowDeleted" msprop:Generator_RowClassName="TBL_Grant_DetailsRow" msprop:Generator_UserTableName="TBL_Grant_Details" msprop:Generator_RowEvArgName="TBL_Grant_DetailsRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Grant_Date" msprop:Generator_ColumnVarNameInTable="columnGrant_Date" msprop:Generator_ColumnPropNameInRow="Grant_Date" msprop:Generator_ColumnPropNameInTable="Grant_DateColumn" msprop:Generator_UserColumnName="Grant_Date" type="xs:string" minOccurs="0" />
+              <xs:element name="Grant_Price" msprop:Generator_ColumnVarNameInTable="columnGrant_Price" msprop:Generator_ColumnPropNameInRow="Grant_Price" msprop:Generator_ColumnPropNameInTable="Grant_PriceColumn" msprop:Generator_UserColumnName="Grant_Price" type="xs:string" minOccurs="0" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

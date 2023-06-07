@@ -1,0 +1,7 @@
+<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+	<tr>
+		<td>DEM_EMP_ID</td><td>DEM_DOJ</td><td>LETTERID</td><td>DEM_GRANT_NAME</td><td>DEM_GRANT_DATE</td><td>DEM_NO_OF_OPTION</td><td>DEM_RECSTATUS</td><td>EMPLOYEE_NAME</td><td>ERROR</td>
+	</tr><tr>
+		<td>1045</td><td>&nbsp;</td><td>41</td><td>TRANCH14</td><td>12-06-2020</td><td>28000</td><td>Failed</td><td>Atul Gujrathi</td><td>Employee does not exist</td>
+	</tr>
+</table><script language='javascript'>window.alert('No records found.');</script>

@@ -1,0 +1,462 @@
+<div>
+	<table cellspacing="0" rules="all" border="1" style="border-collapse:collapse;">
+		<tr>
+			<th scope="col">Employee Id</th><th scope="col">Employee Code</th><th scope="col">Employee Name</th><th scope="col">designation</th><th scope="col">Employee Grade</th><th scope="col">Department</th><th scope="col">Primary Skill</th><th scope="col">Secondary Skill</th><th scope="col">Specialization</th><th scope="col">Joining Date</th><th scope="col">Current / Last Deployed Client Name</th><th scope="col">Non-Utilization</th><th scope="col">Employee Status</th><th scope="col">Status Updated Date</th><th scope="col">Reporting Manager</th><th scope="col">Ageing</th><th scope="col">Follow - up Remarks</th><th scope="col">Next follow-ups date</th><th scope="col">EXPERIENCE</th>
+		</tr><tr>
+			<td>3759</td><td>CI9904</td><td>Kaushik Bhoja Shetty</td><td>Team Leader</td><td>M3</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>Oracle DBA Oracle DBA L1</td><td>16-Apr-2021</td><td>SBI Life Insurance Co. Ltd.</td><td>100</td><td>Track Bench</td><td>03-Jan-2023</td><td>Rajiv Hasmukhlal Shah</td><td>60</td><td>&nbsp;</td><td>&nbsp;</td><td>7 years 12 months</td>
+		</tr><tr>
+			<td>3552</td><td>CI9580</td><td>Shukla Rishiraj</td><td>Team Leader</td><td>M3</td><td>Delivery</td><td>Open Source / Java Technologies</td><td>Advanced Java</td><td>&nbsp;</td><td>10-Feb-2021</td><td>Bennett Coleman and Company Limited</td><td>50</td><td>Partially Billable</td><td>04-Apr-2022</td><td>Faiyaz Habib Virani</td><td>741</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>4042</td><td>CI9564</td><td>Danish AbdulMajid Khan</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>Microsoft SQL Server</td><td>&nbsp;</td><td>08-Feb-2021</td><td>Aditya Birla Finance Limited</td><td>50</td><td>Partially Billable</td><td>18-Jan-2023</td><td>Siddhesh Chothave</td><td>743</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>3526</td><td>CI9508</td><td>Omkar Ramesh Mane</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>SDU - Apps Support</td><td>Application Support &amp; Monitoring</td><td>&nbsp;</td><td>28-Jan-2021</td><td>Mahindra Mahindra Financials Limited</td><td>100</td><td>Track Bench</td><td>16-Dec-2022</td><td>Kaustubh Narendra Nagwekar</td><td>86</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>3209</td><td>CI9190</td><td>Prateek Bhawsar</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Open Source / Java Technologies</td><td>Advanced Java</td><td>Java Developer</td><td>17-Nov-2020</td><td>NIMAI TRADE FINTECH</td><td>100</td><td>Track Bench</td><td>15-Nov-2022</td><td>Neeraj Gopal Darolia</td><td>122</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>2673</td><td>CI8630</td><td>Prajakta Prakash Pawar</td><td>Software Engineer</td><td>M1</td><td>Delivery Academy</td><td>Open Source / Java Technologies</td><td>Python</td><td>&nbsp;</td><td>13-Feb-2020</td><td>Bajaj Allianz General Insurance company</td><td>100</td><td>Track Bench</td><td>29-Jan-2023</td><td>Vikram Gite</td><td>83</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>2159</td><td>CI7906</td><td>Santosh Kumar Gangadhar Kokkula</td><td>Technical Associate</td><td>M1</td><td>Delivery Academy</td><td>Operating Systems</td><td>Linux</td><td>&nbsp;</td><td>21-Sep-2019</td><td>Axis AMC Limited</td><td>100</td><td>Track Bench</td><td>12-Jan-2023</td><td>Yogesh S Chitale</td><td>53</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>1771</td><td>CI7331</td><td>Rahul Ganesh Bilade</td><td>Technical Associate</td><td>M1</td><td>Delivery Academy</td><td>Database Administration</td><td>Microsoft SQL Server</td><td>&nbsp;</td><td>21-Jun-2019</td><td>Aditya Birla Finance Limited</td><td>5</td><td>Partially Billable</td><td>18-Jan-2023</td><td>Siddhesh Chothave</td><td>1341</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>1736</td><td>CI7287</td><td>Saurabh Suryakant Jadhav</td><td>Technical Associate</td><td>M1</td><td>Delivery Academy</td><td>DAM- Cyber Security</td><td>Imperva</td><td>&nbsp;</td><td>18-Jun-2019</td><td>HDFC Bank Ltd.</td><td>100</td><td>Track Bench</td><td>22-Jan-2023</td><td>Rajiv Hasmukhlal Shah</td><td>52</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>1181</td><td>CI6329</td><td>Shweta Sandeep Kadam</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>Testing</td><td>Manual Testing</td><td>&nbsp;</td><td>08-Nov-2018</td><td>HDFC Ergo General Insurance</td><td>100</td><td>Track Bench</td><td>26-Jun-2021</td><td>Kunal Bhor</td><td>93</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>1039</td><td>CI6006</td><td>Janmesh Prathamesh Sharma</td><td>Team Leader</td><td>M3</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>09-Aug-2018</td><td>SBI Life Insurance Co. Ltd.</td><td>100</td><td>Track Bench</td><td>09-Nov-2022</td><td>Siddharth Mukherjee</td><td>143</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>577</td><td>CI4833</td><td>Amol Kumar Sugave</td><td>Technical Associate</td><td>M1</td><td>Delivery Academy</td><td>Database Administration</td><td>MySQL</td><td>&nbsp;</td><td>07-Jul-2017</td><td>Pidilite Industries Limited</td><td>70</td><td>Partially Billable</td><td>04-Aug-2022</td><td>Siddhesh Chothave</td><td>2055</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>305</td><td>CI3809</td><td>Sarita Annaldas</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>13-Jun-2016</td><td>ICICI Lombard General Insurance</td><td>100</td><td>Track Bench</td><td>11-Nov-2022</td><td>Kedar Dighe</td><td>143</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>243</td><td>CI3438</td><td>Vasim Momin</td><td>Team Leader</td><td>M3</td><td>Delivery Academy</td><td>Oracle EBS DBA</td><td>Oracle Database (11g, 12c)</td><td>&nbsp;</td><td>30-Nov-2015</td><td>Indian Hotels</td><td>50</td><td>Partially Billable</td><td>12-Sep-2022</td><td>Nilesh Sangar</td><td>237</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>62</td><td>CI1660</td><td>Balasunder Radhakrishnan Padayachi</td><td>Project Leader</td><td>M4</td><td>Delivery</td><td>NOC Tools</td><td>Third Party Tool</td><td>&nbsp;</td><td>01-Apr-2014</td><td>IDFC First Bank</td><td>100</td><td>Track Bench</td><td>20-Feb-2023</td><td>Siddharth Mukherjee</td><td>245</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>9029</td><td>CI14882</td><td>Harshali Mahendra Somwnshi</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>SDU - Apps Support</td><td>Application Support &amp; Monitoring</td><td>&nbsp;</td><td>18-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Sachin Suresh Prabhu</td><td>3</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 2 months</td>
+		</tr><tr>
+			<td>9030</td><td>CI14881</td><td>Majid Abdul Matin Haris</td><td>Senior Consultant</td><td>M2</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>18-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Saif Mohd Iqbal Shaikh</td><td>3</td><td>&nbsp;</td><td>&nbsp;</td><td>5 years 8 months</td>
+		</tr><tr>
+			<td>9028</td><td>CI14880</td><td>Chandramouli Jagadeesh Sai Kerla</td><td>Senior Consultant</td><td>M2</td><td>Delivery</td><td>Database Administration</td><td>Microsoft SQL Server</td><td>&nbsp;</td><td>18-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Ranjith Arokiaraj Mathias</td><td>3</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 0 months</td>
+		</tr><tr>
+			<td>9027</td><td>CI14879</td><td>Narendra Vilas Falak</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>SQL</td><td>18-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Amit vasnt Watwe</td><td>3</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 10 months</td>
+		</tr><tr>
+			<td>9026</td><td>CI14878</td><td>Pawan Kumar Raghubir Saw</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>WCF</td><td>18-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Varunkumar Harinath Upadhyay</td><td>3</td><td>&nbsp;</td><td>&nbsp;</td><td>6 years 0 months</td>
+		</tr><tr>
+			<td>9018</td><td>CI14877</td><td>Rakesh Lakshmanarao Kondisetty</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Middleware</td><td>IBM Websphere Application Server</td><td>&nbsp;</td><td>17-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Bhushan Daga</td><td>4</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 6 months</td>
+		</tr><tr>
+			<td>9017</td><td>CI14876</td><td>Sachin Sudhakar Bile</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Automation</td><td>RPA</td><td>Uipath</td><td>17-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Khalid Ansari</td><td>4</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 8 months</td>
+		</tr><tr>
+			<td>9016</td><td>CI14875</td><td>Rameshwar Sunil Bhapkar</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Open Source / Java Technologies</td><td>Advanced Java</td><td>&nbsp;</td><td>17-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Neeraj Gopal Darolia</td><td>4</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 0 months</td>
+		</tr><tr>
+			<td>9015</td><td>CI14874</td><td>Mohammad Asjad Abdul Salam Siddiqy</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>17-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Pankaj Janardan Bawane</td><td>4</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 7 months</td>
+		</tr><tr>
+			<td>9011</td><td>CI14854</td><td>Vikas Subhash Pulwale</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Microsoft Technologies</td><td>Windows Forms
+</td><td>&nbsp;</td><td>16-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>5</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 0 months</td>
+		</tr><tr>
+			<td>9010</td><td>CI14853</td><td>Kuldeep Dalip Singh Katewa</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>NOC Tools</td><td>Network Engineer</td><td>CCNA/CCNP</td><td>16-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Jatinder Pal Avtar Singh</td><td>5</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 0 months</td>
+		</tr><tr>
+			<td>9006</td><td>CI14852</td><td>Saichand Hanumantha Rao Atla</td><td>Senior Consultant</td><td>M2</td><td>Delivery</td><td>Database Administration</td><td>Microsoft SQL Server</td><td>&nbsp;</td><td>16-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Siddhesh Chothave</td><td>5</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 5 months</td>
+		</tr><tr>
+			<td>9000</td><td>CI14851</td><td>Rushikesh Ramesh Dange</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>16-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Pankaj Janardan Bawane</td><td>5</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 7 months</td>
+		</tr><tr>
+			<td>8999</td><td>CI14850</td><td>Chaithanya Kumar Mani Gonu</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Operating Systems</td><td>Windows</td><td>&nbsp;</td><td>16-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Rajnish Mevalal Upadhyaya</td><td>5</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 8 months</td>
+		</tr><tr>
+			<td>9019</td><td>CI14849</td><td>Ravindra Ramswaroop Sharma</td><td>Manager - Delivery</td><td>M5</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>16-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Siddharth Mukherjee</td><td>5</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>8998</td><td>CI14848</td><td>Shubham Sopan Chavan</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>SQL</td><td>16-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Amit vasnt Watwe</td><td>5</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 1 months</td>
+		</tr><tr>
+			<td>8997</td><td>CI14847</td><td>Shahrukh Mohd Saeed Khan</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Operating Systems</td><td>Linux</td><td>&nbsp;</td><td>15-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>D Ram Narayan Singh</td><td>6</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 3 months</td>
+		</tr><tr>
+			<td>8996</td><td>CI14846</td><td>Pratik Mahendra Suryawanshi</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>SQL</td><td>15-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Amit vasnt Watwe</td><td>6</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 0 months</td>
+		</tr><tr>
+			<td>8995</td><td>CI14845</td><td>Mahesh Lahanu Shete</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>Microsoft Technologies</td><td>C#</td><td>MVC, C#, SQL Server</td><td>15-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>6</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 0 months</td>
+		</tr><tr>
+			<td>8993</td><td>CI14844</td><td>Swapnil Vithal Utekar</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>&nbsp;</td><td>15-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Vikram Gite</td><td>6</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 0 months</td>
+		</tr><tr>
+			<td>8992</td><td>CI14843</td><td>Ashwini Sainath Jadhav</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>MVC</td><td>15-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>6</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 3 months</td>
+		</tr><tr>
+			<td>8994</td><td>CI14842</td><td>Kailash Dinesh Vadhel</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>C#, SQL Server</td><td>15-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>6</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 2 months</td>
+		</tr><tr>
+			<td>8987</td><td>CI14837</td><td>Rambhavan Shivpoojan Sharma</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>MVC</td><td>14-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>7</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 7 months</td>
+		</tr><tr>
+			<td>8986</td><td>CI14836</td><td>Abhijeet Vitthal Thombare</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Application Support</td><td>&nbsp;</td><td>14-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Senthil Krishnan J</td><td>7</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 0 months</td>
+		</tr><tr>
+			<td>9002</td><td>CI14829</td><td>Halleppa Suresh Kumar</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>14-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Jabin Aute</td><td>7</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>8984</td><td>CI14823</td><td>Sanjay Kumar Shravan Jaiswal</td><td>Senior Software Engineer</td><td>M1</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>&nbsp;</td><td>13-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>8</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 0 months</td>
+		</tr><tr>
+			<td>8983</td><td>CI14822</td><td>Mahesh Kalyan Patil</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Open Source / Java Technologies</td><td>Bootstrap framework</td><td>JS, CSS, JQuery,</td><td>13-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Rekha Abhishek Dighe</td><td>8</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 2 months</td>
+		</tr><tr>
+			<td>8982</td><td>CI14821</td><td>Shubham Jagannath Khusape</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Open Source / Java Technologies</td><td>Spring Framework</td><td>Spring</td><td>13-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Neeraj Gopal Darolia</td><td>8</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 4 months</td>
+		</tr><tr>
+			<td>8981</td><td>CI14820</td><td>Ganesh Dina Boro</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Operating Systems</td><td>Linux</td><td>&nbsp;</td><td>11-Feb-2023</td><td>Protean e-Governance Infrastructure Limited</td><td>100</td><td>Reserved</td><td>13-Feb-2023</td><td>Rajnish Mevalal Upadhyaya</td><td>10</td><td>&nbsp;</td><td>&nbsp;</td><td>7 years 0 months</td>
+		</tr><tr>
+			<td>8979</td><td>CI14818</td><td>Pankaj Sukadeo Ligade</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>BI-DW Technologies</td><td>Power BI</td><td>&nbsp;</td><td>11-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>10</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 5 months</td>
+		</tr><tr>
+			<td>8978</td><td>CI14817</td><td>Sadaf Sayyed Peer</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>10-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Pankaj Janardan Bawane</td><td>11</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 2 months</td>
+		</tr><tr>
+			<td>8971</td><td>CI14812</td><td>Kiran Babruvan Jadhav</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Application Support</td><td>&nbsp;</td><td>09-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Senthil Krishnan J</td><td>12</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 0 months</td>
+		</tr><tr>
+			<td>8969</td><td>CI14808</td><td>Ashish Sanjay Shimpi</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Portal Technologies</td><td>Oracle Webcenter Portal</td><td>&nbsp;</td><td>09-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Neeraj Gopal Darolia</td><td>12</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 0 months</td>
+		</tr><tr>
+			<td>8968</td><td>CI14807</td><td>Bhavika Nagendra Dube</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Open Source / Java Technologies</td><td>Advanced Java</td><td>&nbsp;</td><td>08-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Neeraj Gopal Darolia</td><td>13</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 0 months</td>
+		</tr><tr>
+			<td>8967</td><td>CI14806</td><td>Sanjeet Kumar Mandal</td><td>Team Leader</td><td>M3</td><td>Delivery</td><td>Java</td><td>Java</td><td>Springboot</td><td>08-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Neeraj Gopal Darolia</td><td>13</td><td>&nbsp;</td><td>&nbsp;</td><td>7 years 0 months</td>
+		</tr><tr>
+			<td>8963</td><td>CI14804</td><td>Lakshmankumar Umesh Kadam</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>WCF</td><td>08-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Varunkumar Harinath Upadhyay</td><td>13</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 3 months</td>
+		</tr><tr>
+			<td>8962</td><td>CI14803</td><td>Sumit Suresh Bane</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Incident Management</td><td>Incident Management</td><td>&nbsp;</td><td>07-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Vikram Gite</td><td>14</td><td>&nbsp;</td><td>&nbsp;</td><td>14 years 0 months</td>
+		</tr><tr>
+			<td>8959</td><td>CI14800</td><td>Bakthavachalam Manivannan M</td><td>Team Leader</td><td>M3</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>L3</td><td>06-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Ranjith Arokiaraj Mathias</td><td>15</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 0 months</td>
+		</tr><tr>
+			<td>8954</td><td>CI14796</td><td>Tushar Bhagwat Mohite</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>Automation</td><td>RPA</td><td>&nbsp;</td><td>06-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Khalid Ansari</td><td>15</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 3 months</td>
+		</tr><tr>
+			<td>8952</td><td>CI14789</td><td>Hari Narasimhulu Jonnalagadda</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Operating Systems</td><td>AIX</td><td>&nbsp;</td><td>04-Feb-2023</td><td>Saraswat Bank</td><td>100</td><td>Reserved</td><td>13-Feb-2023</td><td>D Ram Narayan Singh</td><td>17</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 2 months</td>
+		</tr><tr>
+			<td>8948</td><td>CI14788</td><td>Manish Jamuna Rai</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Application Support</td><td>&nbsp;</td><td>04-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Senthil Krishnan J</td><td>17</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 0 months</td>
+		</tr><tr>
+			<td>8944</td><td>CI14783</td><td>Aruna Puttaswamy Banasamudra</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Middleware</td><td>IBM Websphere Application Server</td><td>&nbsp;</td><td>03-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Sowdagar Khaleel Basha</td><td>18</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 0 months</td>
+		</tr><tr>
+			<td>8943</td><td>CI14782</td><td>Rajan Om Prakash Verma</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Project Management</td><td>Project Management</td><td>Incident management</td><td>03-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Jatinder Pal Avtar Singh</td><td>18</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 0 months</td>
+		</tr><tr>
+			<td>8939</td><td>CI14778</td><td>Umesh Siddheshwar Parihar</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>&nbsp;</td><td>02-Feb-2023</td><td>ICICI Bank Ltd.</td><td>100</td><td>Reserved</td><td>14-Feb-2023</td><td>Kaustubh Narendra Nagwekar</td><td>19</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 3 months</td>
+		</tr><tr>
+			<td>8926</td><td>CI14774</td><td>Vishal Ravindra Sarode</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support</td><td>Banking Application</td><td>Prepaid / Debit / Credit Card</td><td>01-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Goutam Chatterjee</td><td>20</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 8 months</td>
+		</tr><tr>
+			<td>8927</td><td>CI14773</td><td>Muzammil Irshad Ahmed Ansari</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>01-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kumar Solanki</td><td>20</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 0 months</td>
+		</tr><tr>
+			<td>8920</td><td>CI14770</td><td>Joshua Narsingh Pothraj</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Operating Systems</td><td>Linux</td><td>&nbsp;</td><td>01-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Krishnanand Tiwari</td><td>20</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 6 months</td>
+		</tr><tr>
+			<td>8919</td><td>CI14769</td><td>Iqbal Yahya Mohammad</td><td>Senior Consultant</td><td>M2</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>01-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Pawej Ganesh Parwe</td><td>20</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 0 months</td>
+		</tr><tr>
+			<td>8911</td><td>CI14758</td><td>Akshay Shahaji Bhos</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>MS SQL DBA</td><td>MS SQL DBA</td><td>L1</td><td>31-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Siddhesh Chothave</td><td>21</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 6 months</td>
+		</tr><tr>
+			<td>8913</td><td>CI14757</td><td>Tushar Kashinath Gharat</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support</td><td>Banking Application</td><td>Prepaid / Debit / Credit Card</td><td>31-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Goutam Chatterjee</td><td>21</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 12 months</td>
+		</tr><tr>
+			<td>8910</td><td>CI14752</td><td>Haresh Naresh Mhatre</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support</td><td>Banking Application</td><td>Prepaid / Debit / Credit Card</td><td>31-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Goutam Chatterjee</td><td>21</td><td>&nbsp;</td><td>&nbsp;</td><td>5 years 1 months</td>
+		</tr><tr>
+			<td>8903</td><td>CI14748</td><td>Prahalad Lallan Prasad Vishvakarma</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Microsoft Technologies</td><td>C#</td><td>MVC, C#, SQL Server</td><td>31-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>21</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 1 months</td>
+		</tr><tr>
+			<td>8902</td><td>CI14747</td><td>Kunal Ekanath Thakur</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Insurance Applications</td><td>&nbsp;</td><td>31-Jan-2023</td><td>SBI Life Insurance Co. Ltd.</td><td>100</td><td>Reserved</td><td>14-Feb-2023</td><td>Shailesh Ashokrao Chorage</td><td>21</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 10 months</td>
+		</tr><tr>
+			<td>8923</td><td>CI14744</td><td>Pradeep N Kalamegan K</td><td>Assistant Vice President - Delivery</td><td>M7</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>31-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Subham Banerjee</td><td>21</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>8897</td><td>CI14735</td><td>Aniket Umakant Thakare</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Application Support</td><td>&nbsp;</td><td>30-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Senthil Krishnan J</td><td>22</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 1 months</td>
+		</tr><tr>
+			<td>8892</td><td>CI14733</td><td>Sagar Bhagwan Patil</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>SDU - Apps Support</td><td>Application Support &amp; Monitoring</td><td>&nbsp;</td><td>28-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Senthil Krishnan J</td><td>24</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 10 months</td>
+		</tr><tr>
+			<td>8891</td><td>CI14732</td><td>Ayushi Bamrolia</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>28-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Abdul Danish Pasha - (JANA BANK)</td><td>24</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 7 months</td>
+		</tr><tr>
+			<td>8888</td><td>CI14729</td><td>Sagar Balbhim Tapkeer</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>&nbsp;</td><td>28-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Pankaj Janardan Bawane</td><td>24</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 3 months</td>
+		</tr><tr>
+			<td>8886</td><td>CI14727</td><td>Lateef Sadiq Ulla Khan</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>28-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Pankaj Janardan Bawane</td><td>24</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 7 months</td>
+		</tr><tr>
+			<td>8878</td><td>CI14719</td><td>Anil Venkateswarlu Kurapati</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>Sharepoint Developer</td><td>27-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Abdul Danish Pasha - (JANA BANK)</td><td>25</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 4 months</td>
+		</tr><tr>
+			<td>8870</td><td>CI14708</td><td>Mahesh Shankar Phalake</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>25-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Dharmaraju Vemula</td><td>27</td><td>&nbsp;</td><td>&nbsp;</td><td>9 years 5 months</td>
+		</tr><tr>
+			<td>8863</td><td>CI14705</td><td>Vaishali Prakash Turkane</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>24-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Dharmaraju Vemula</td><td>28</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 1 months</td>
+		</tr><tr>
+			<td>8858</td><td>CI14702</td><td>Paurnima Mahendra Patil</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>24-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Dharmaraju Vemula</td><td>28</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 1 months</td>
+		</tr><tr>
+			<td>8853</td><td>CI14695</td><td>Pankaj Rajendraprasad Dubey</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>23-Jan-2023</td><td>Yes Bank</td><td>100</td><td>Reserved</td><td>14-Feb-2023</td><td>Senthil Krishnan J</td><td>29</td><td>&nbsp;</td><td>&nbsp;</td><td>6 years 4 months</td>
+		</tr><tr>
+			<td>8835</td><td>CI14680</td><td>Akash Satya Narayan Vishwakarma Deva</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>MySQL</td><td>MSCP</td><td>21-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Jatinder Pal Avtar Singh</td><td>31</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 4 months</td>
+		</tr><tr>
+			<td>8833</td><td>CI14672</td><td>Swarupa Vasant Patil</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Java</td><td>Java</td><td>&nbsp;</td><td>20-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Neeraj Gopal Darolia</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 4 months</td>
+		</tr><tr>
+			<td>8834</td><td>CI14671</td><td>Bhagwat Sandu Sirsath</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>SDU - Apps Support</td><td>Application Support &amp; Monitoring</td><td>&nbsp;</td><td>20-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Senthil Krishnan J</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 3 months</td>
+		</tr><tr>
+			<td>8827</td><td>CI14668</td><td>Nagendra Raghuvir Singh</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Insurance Applications</td><td>Java, .Net</td><td>20-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Jatinder Pal Avtar Singh</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td><td>8 years 1 months</td>
+		</tr><tr>
+			<td>8828</td><td>CI14667</td><td>Abhijeet Jijabrao Jadhav</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Java</td><td>Java</td><td>&nbsp;</td><td>20-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Vishal Mestri</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 6 months</td>
+		</tr><tr>
+			<td>8826</td><td>CI14666</td><td>Himanshu Shrikrishna Gavhale</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Java</td><td>Java</td><td>&nbsp;</td><td>20-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Vishal Mestri</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 6 months</td>
+		</tr><tr>
+			<td>8819</td><td>CI14665</td><td>Nikita Mangesh Sutar</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Application Support</td><td>UAT</td><td>20-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Senthil Krishnan J</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 1 months</td>
+		</tr><tr>
+			<td>8814</td><td>CI14664</td><td>Sarvesh Satish Charjan</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>PLSQL</td><td>PLSQL Developer</td><td>&nbsp;</td><td>20-Jan-2023</td><td>SBI Life Insurance Co. Ltd.</td><td>100</td><td>Reserved</td><td>29-Jan-2023</td><td>Veena Subhash Kamath</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 2 months</td>
+		</tr><tr>
+			<td>8813</td><td>CI14663</td><td>Ganesh Bhimrav Londhe</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Open Source / Java Technologies</td><td>Bootstrap framework</td><td>JS, CSS, JQuery,</td><td>20-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Rekha Abhishek Dighe</td><td>32</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 3 months</td>
+		</tr><tr>
+			<td>8812</td><td>CI14662</td><td>Bhavani Mahendran M</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>19-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Pankaj Janardan Bawane</td><td>33</td><td>&nbsp;</td><td>&nbsp;</td><td>6 years 1 months</td>
+		</tr><tr>
+			<td>8811</td><td>CI14661</td><td>Rahul Yashvant Rade</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>MVC</td><td>19-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>33</td><td>&nbsp;</td><td>&nbsp;</td><td>8 years 1 months</td>
+		</tr><tr>
+			<td>8809</td><td>CI14659</td><td>Rihan Aslamkhan Pathan</td><td>&nbsp;</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>19-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Saif Mohd Iqbal Shaikh</td><td>33</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 1 months</td>
+		</tr><tr>
+			<td>8808</td><td>CI14658</td><td>Rakesh Bhika Patil</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>19-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Dharmaraju Vemula</td><td>33</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 1 months</td>
+		</tr><tr>
+			<td>8806</td><td>CI14653</td><td>Aditya Prashant Chaurasia</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Application Support</td><td>&nbsp;</td><td>18-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Senthil Krishnan J</td><td>34</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 1 months</td>
+		</tr><tr>
+			<td>8802</td><td>CI14651</td><td>Harshal Bhaskar Chaudhari</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>18-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Dharmaraju Vemula</td><td>34</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 1 months</td>
+		</tr><tr>
+			<td>8804</td><td>CI14650</td><td>Dileep Ashorao Lokhande</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Oracle EBS Technical</td><td>Core EBS Technical</td><td>EBS</td><td>18-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Akshay Narendra Jadhav</td><td>34</td><td>&nbsp;</td><td>&nbsp;</td><td>5 years 1 months</td>
+		</tr><tr>
+			<td>8795</td><td>CI14638</td><td>Avinash Jagannath Bhanse</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Microsoft Technologies</td><td>VBA</td><td>VBA</td><td>17-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Riyaz Saiyyed</td><td>35</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 1 months</td>
+		</tr><tr>
+			<td>8793</td><td>CI14635</td><td>Rohan Vijay Palekar</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>Microsoft SQL Server</td><td>&nbsp;</td><td>17-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kumar Solanki</td><td>35</td><td>&nbsp;</td><td>&nbsp;</td><td>7 years 1 months</td>
+		</tr><tr>
+			<td>8784</td><td>CI14632</td><td>Gajanan Babruvan Yarkunde</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>SQL</td><td>17-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Amit vasnt Watwe</td><td>35</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 8 months</td>
+		</tr><tr>
+			<td>8763</td><td>CI14602</td><td>Zubair Mohd Imran Mistry</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Microsoft Technologies</td><td>VBA</td><td>VBA</td><td>11-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Riyaz Saiyyed</td><td>41</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 1 months</td>
+		</tr><tr>
+			<td>8765</td><td>CI14596</td><td>Manoj Nana Bhosale</td><td>Assistant Vice President - Delivery</td><td>M7</td><td>Delivery</td><td>Service Delivery Management</td><td>Service Delivery Management</td><td>EBS</td><td>10-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kishore Bhupati</td><td>42</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>8757</td><td>CI14595</td><td>Rakesh Mahadev Harekar</td><td>Project Leader</td><td>M4</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>VB.NET SQL SERVER</td><td>10-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Varunkumar Harinath Upadhyay</td><td>42</td><td>&nbsp;</td><td>&nbsp;</td><td>6 years 8 months</td>
+		</tr><tr>
+			<td>8752</td><td>CI14590</td><td>Ravi Sudharshan Kasturi</td><td>Senior Consultant</td><td>M2</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>07-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Abdul Danish Pasha - (JANA BANK)</td><td>45</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 1 months</td>
+		</tr><tr>
+			<td>8750</td><td>CI14588</td><td>Mahesh Prabhakar Jadkar</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>07-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>45</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 1 months</td>
+		</tr><tr>
+			<td>8744</td><td>CI14582</td><td>Mangesh Pralhad Paikrao</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Application Support</td><td>&nbsp;</td><td>06-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Dharmaraju Vemula</td><td>46</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 7 months</td>
+		</tr><tr>
+			<td>8741</td><td>CI14579</td><td>Sushant Pandurang Torankar</td><td>Team Leader</td><td>M3</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>MVC</td><td>05-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>47</td><td>&nbsp;</td><td>&nbsp;</td><td>7 years 1 months</td>
+		</tr><tr>
+			<td>8696</td><td>CI14572</td><td>Suraj Dilip Polke</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>MySQL</td><td>&nbsp;</td><td>03-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Krishnanand Tiwari</td><td>49</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 3 months</td>
+		</tr><tr>
+			<td>8703</td><td>CI14571</td><td>Shailesh Ashokrao Chorage</td><td>Project Leader</td><td>M4</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>03-Jan-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Vikram Gite</td><td>49</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>8684</td><td>CI14554</td><td>Rohit Shivkumar Jaiswal</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>&nbsp;</td><td>31-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>52</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 8 months</td>
+		</tr><tr>
+			<td>8682</td><td>CI14552</td><td>Saurabh Dnyaneshwar Pawar</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>Power BI</td><td>31-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Ketan Udani</td><td>52</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 2 months</td>
+		</tr><tr>
+			<td>8626</td><td>CI14502</td><td>Snehal Rameshchandra Pitrola</td><td>Project Leader</td><td>M4</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Application Support</td><td>&nbsp;</td><td>22-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Pankaj Janardan Bawane</td><td>61</td><td>&nbsp;</td><td>&nbsp;</td><td>15 years 2 months</td>
+		</tr><tr>
+			<td>8610</td><td>CI14480</td><td>Durvesh Suresh Shinde</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>BI-DW Technologies</td><td>Oracle - OBIEE</td><td>&nbsp;</td><td>19-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Jayprakash Ramkaran Pal</td><td>64</td><td>&nbsp;</td><td>&nbsp;</td><td>5 years 6 months</td>
+		</tr><tr>
+			<td>8609</td><td>CI14479</td><td>Hemant Ashok Raut</td><td>Team Leader</td><td>M3</td><td>Delivery</td><td>Oracle EBS Functional</td><td>Functional</td><td>&nbsp;</td><td>19-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kishore Bhupati</td><td>64</td><td>&nbsp;</td><td>&nbsp;</td><td>7 years 2 months</td>
+		</tr><tr>
+			<td>8596</td><td>CI14474</td><td>Laxman Nivrutti Waghmare</td><td>Senior Consultant</td><td>M2</td><td>Delivery</td><td>EUC</td><td>EUC</td><td>&nbsp;</td><td>16-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Amit vasnt Watwe</td><td>67</td><td>&nbsp;</td><td>&nbsp;</td><td>12 years 2 months</td>
+		</tr><tr>
+			<td>8594</td><td>CI14472</td><td>Aruna Vishwanath Chavan</td><td>Senior Business Analyst</td><td>M2</td><td>Delivery</td><td>Portal Technologies</td><td>Oracle Webcenter Suite</td><td>&nbsp;</td><td>16-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Rekha Abhishek Dighe</td><td>67</td><td>&nbsp;</td><td>&nbsp;</td><td>6 years 2 months</td>
+		</tr><tr>
+			<td>8592</td><td>CI14458</td><td>Pawej Ganesh Parwe</td><td>Manager - Delivery</td><td>M5</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>14-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Amit vasnt Watwe</td><td>69</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>8582</td><td>CI14453</td><td>Utkarsh Kishor Sathe</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Microsoft Technologies</td><td>VBA</td><td>VBA Excel</td><td>13-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Riyaz Saiyyed</td><td>70</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 12 months</td>
+		</tr><tr>
+			<td>8578</td><td>CI14448</td><td>Komal Pralhad Shinde</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>&nbsp;</td><td>12-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Senthil Krishnan J</td><td>71</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 10 months</td>
+		</tr><tr>
+			<td>8576</td><td>CI14446</td><td>Naushad Zarrar Ahmad</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Oracle DBA</td><td>Oracle Database (11g, 12c)</td><td>Goldengate</td><td>10-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kumar Solanki</td><td>73</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 7 months</td>
+		</tr><tr>
+			<td>8563</td><td>CI14433</td><td>Priyanka Prasad Phatak</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Application Support</td><td>&nbsp;</td><td>05-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Senthil Krishnan J</td><td>78</td><td>&nbsp;</td><td>&nbsp;</td><td>5 years 11 months</td>
+		</tr><tr>
+			<td>8562</td><td>CI14432</td><td>Rohit Hanmant Dhokale</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Microsoft Technologies</td><td>VBA</td><td>VBA</td><td>02-Dec-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Riyaz Saiyyed</td><td>81</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 2 months</td>
+		</tr><tr>
+			<td>8546</td><td>CI14417</td><td>Santosh Bhimrao Gawade</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Application Support</td><td>UAT</td><td>25-Nov-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Senthil Krishnan J</td><td>88</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 3 months</td>
+		</tr><tr>
+			<td>8543</td><td>CI14416</td><td>Prem Ankush Nikam</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Microsoft Technologies</td><td>VBA</td><td>&nbsp;</td><td>24-Nov-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Riyaz Saiyyed</td><td>89</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 3 months</td>
+		</tr><tr>
+			<td>8541</td><td>CI14414</td><td>Abhishek Babban Prasad Ashish</td><td>Manager - Delivery</td><td>M5</td><td>Delivery</td><td>Oracle EBS Functional</td><td>Financials</td><td>&nbsp;</td><td>21-Nov-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kishore Bhupati</td><td>92</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>8515</td><td>CI14388</td><td>Rehan Asgerali Meer</td><td>&nbsp;</td><td>M2</td><td>Delivery</td><td>Quality Assurance&#160;</td><td>IT Audit</td><td>CMMi 2.0</td><td>09-Nov-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Rakesh Jaiprakash Kudalkar</td><td>104</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 3 months</td>
+		</tr><tr>
+			<td>8478</td><td>CI14368</td><td>Yogesh Digambar Panhalkar</td><td>&nbsp;</td><td>M1</td><td>Delivery</td><td>Operating Systems</td><td>Linux</td><td>L1</td><td>01-Nov-2022</td><td>Kotak Mahindra Bank Ltd.</td><td>100</td><td>Track Bench</td><td>01-Dec-2022</td><td>Aadil Aslam Rumaney</td><td>92</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 8 months</td>
+		</tr><tr>
+			<td>8376</td><td>CI14252</td><td>Sanjeev Dilip Prajapati</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Open Source / Java Technologies</td><td>Java J2EE</td><td>&nbsp;</td><td>18-Oct-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Saumya Shivaji Vemula</td><td>126</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 6 months</td>
+		</tr><tr>
+			<td>8311</td><td>CI14191</td><td>Kishor Lingadev Gawade</td><td>Seinor Software Engineer</td><td>M2</td><td>Delivery</td><td>Microsoft Technologies</td><td>Tsql</td><td>T Sql</td><td>10-Oct-2022</td><td>Star Union Dai-Ichi</td><td>100</td><td>Track Bench</td><td>16-Dec-2022</td><td>Kedar Dighe</td><td>77</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 11 months</td>
+		</tr><tr>
+			<td>8307</td><td>CI14187</td><td>Anuj Kumar Ramsevak Sahu</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>&nbsp;</td><td>10-Oct-2022</td><td>Axis Bank Ltd</td><td>100</td><td>Track Bench</td><td>14-Feb-2023</td><td>Dharmaraju Vemula</td><td>21</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 4 months</td>
+		</tr><tr>
+			<td>8209</td><td>CI14081</td><td>Akash Sunil Suryavanshi</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>29-Sep-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Thomson Thomas Pappachen</td><td>145</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>8143</td><td>CI14020</td><td>Rahul Ramesh Paraswar</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>&nbsp;</td><td>26-Sep-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Dharmaraju Vemula</td><td>148</td><td>&nbsp;</td><td>&nbsp;</td><td>5 years 5 months</td>
+		</tr><tr>
+			<td>8133</td><td>CI14010</td><td>Pulla Mohan Sai Bhavanarayana Raghavendra</td><td>&nbsp;</td><td>M1</td><td>Delivery</td><td>PLSQL</td><td>PLSQL Developer</td><td>EBS</td><td>23-Sep-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Veena Subhash Kamath</td><td>151</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 16 months</td>
+		</tr><tr>
+			<td>8130</td><td>CI14005</td><td>Mrunal Vijaysing Girase</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>C#</td><td>23-Sep-2022</td><td>HDFC Bank Ltd.</td><td>100</td><td>Track Bench</td><td>10-Dec-2022</td><td>Kedar Dighe</td><td>83</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 5 months</td>
+		</tr><tr>
+			<td>8085</td><td>CI13989</td><td>Hattarage Pradip Sanjay</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>Microsoft SQL Server</td><td>L1</td><td>22-Sep-2022</td><td>Cholamandalam Investment &amp; Finance Ltd.</td><td>15</td><td>Partially Billable</td><td>14-Oct-2022</td><td>Siddhesh Chothave</td><td>152</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 5 months</td>
+		</tr><tr>
+			<td>8039</td><td>CI13933</td><td>Akash Vasant Kale</td><td>L1-Internal</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>MySQL</td><td>L1</td><td>16-Sep-2022</td><td>Mahindra Logistics Limited</td><td>50</td><td>Partially Billable</td><td>07-Nov-2022</td><td>Krishnanand Tiwari</td><td>158</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 11 months</td>
+		</tr><tr>
+			<td>7998</td><td>CI13888</td><td>Shreyas Kailash Samdani</td><td>L1-Internal</td><td>M2</td><td>Delivery</td><td>Database Administration</td><td>PostgreSQL</td><td>&nbsp;</td><td>09-Sep-2022</td><td>Edelweiss Financial Services</td><td>30</td><td>Partially Billable</td><td>26-Oct-2022</td><td>Krishnanand Tiwari</td><td>165</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 16 months</td>
+		</tr><tr>
+			<td>7900</td><td>CI13828</td><td>Zahida Munib Bano</td><td>HDFC_OracleAVDF</td><td>M1</td><td>Delivery</td><td>DAM- Cyber Security</td><td>Imperva</td><td>&nbsp;</td><td>30-Aug-2022</td><td>HDFC Bank Ltd.</td><td>100</td><td>Track Bench</td><td>20-Jan-2023</td><td>Kaustubh Narendra Nagwekar</td><td>52</td><td>&nbsp;</td><td>&nbsp;</td><td>0 years 6 months</td>
+		</tr><tr>
+			<td>7895</td><td>CI13822</td><td>Satuluri Lakshmi Kanth</td><td>BSLI_OpenSource1</td><td>M2</td><td>Delivery</td><td>Database Administration</td><td>MySQL</td><td>&nbsp;</td><td>30-Aug-2022</td><td>Reliance Nippon Life Insurance Co Ltd.</td><td>30</td><td>Partially Billable</td><td>&nbsp;</td><td>Krishnanand Tiwari</td><td>175</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 6 months</td>
+		</tr><tr>
+			<td>7896</td><td>CI13821</td><td>Sumit Rajendra Shah</td><td>L1-Internal</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>MySQL</td><td>Postgrey</td><td>30-Aug-2022</td><td>HDB Financial Services</td><td>70</td><td>Partially Billable</td><td>26-Oct-2022</td><td>Krishnanand Tiwari</td><td>175</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 6 months</td>
+		</tr><tr>
+			<td>7877</td><td>CI13771</td><td>Amol Chandrakant Raut</td><td>Technical Assocoate</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>MySQL</td><td>Postgrey</td><td>29-Aug-2022</td><td>Aditya Birla Finance Limited</td><td>60</td><td>Partially Billable</td><td>07-Nov-2022</td><td>Krishnanand Tiwari</td><td>176</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 12 months</td>
+		</tr><tr>
+			<td>7874</td><td>CI13768</td><td>Yatish Chandrakant Bharambe</td><td>Technical Assocoate</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>MySQL</td><td>Postgrey</td><td>29-Aug-2022</td><td>Edelweiss Financial Services</td><td>70</td><td>Partially Billable</td><td>26-Sep-2022</td><td>Krishnanand Tiwari</td><td>176</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 13 months</td>
+		</tr><tr>
+			<td>7785</td><td>CI13670</td><td>Afzal Idris Shaikh</td><td>Trainee</td><td>M0</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>&nbsp;</td><td>18-Aug-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>187</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7784</td><td>CI13669</td><td>Rohita Anil Devalkar</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>PLSQL</td><td>PLSQL Developer</td><td>&nbsp;</td><td>18-Aug-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Veena Subhash Kamath</td><td>187</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7717</td><td>CI13635</td><td>Nitish Ramprakash Jaiswar</td><td>DBA Mongo DB</td><td>M2</td><td>Delivery</td><td>Database Administration</td><td>Mongo DB</td><td>&nbsp;</td><td>13-Aug-2022</td><td>Larsen and Toubro Finance</td><td>50</td><td>Partially Billable</td><td>&nbsp;</td><td>Krishnanand Tiwari</td><td>192</td><td>&nbsp;</td><td>&nbsp;</td><td>5 years 12 months</td>
+		</tr><tr>
+			<td>7675</td><td>CI13593</td><td>Sandeep Govardhan Pal</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Devops- Digital</td><td>ADF</td><td>&nbsp;</td><td>08-Aug-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Khalid Ansari</td><td>197</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7653</td><td>CI13586</td><td>Ajay Bhimraj Navgire</td><td>Technical Assocoate</td><td>M2</td><td>Delivery</td><td>Database Administration</td><td>MySQL</td><td>Postgrey</td><td>06-Aug-2022</td><td>Larsen and Toubro Finance</td><td>50</td><td>Partially Billable</td><td>26-Sep-2022</td><td>Krishnanand Tiwari</td><td>199</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 6 months</td>
+		</tr><tr>
+			<td>7664</td><td>CI13556</td><td>Aimaz Afsar Ahmed</td><td>Trainee</td><td>M0</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>&nbsp;</td><td>03-Aug-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>202</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7589</td><td>CI13539</td><td>Avinash Ramdas Suroshi</td><td>technical Associate</td><td>M1</td><td>Delivery</td><td>Operating Systems</td><td>Linux</td><td>Linux Windows</td><td>02-Aug-2022</td><td>Utkarsh Small Finance Bank</td><td>100</td><td>Track Bench</td><td>17-Jan-2023</td><td>Yogesh S Chitale</td><td>93</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 6 months</td>
+		</tr><tr>
+			<td>7542</td><td>CI13512</td><td>Atul Rhiday Jadhav</td><td>HDFC_OracleAVDF</td><td>M1</td><td>Delivery</td><td>DAM- Cyber Security</td><td>Imperva</td><td>&nbsp;</td><td>30-Jul-2022</td><td>HDFC Bank Ltd.</td><td>100</td><td>Track Bench</td><td>22-Jan-2023</td><td>Rajiv Hasmukhlal Shah</td><td>52</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 10 months</td>
+		</tr><tr>
+			<td>7604</td><td>CI13476</td><td>Govind Shamsher Sonka</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>MySQL</td><td>&nbsp;</td><td>29-Jul-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Krishnanand Tiwari</td><td>207</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7599</td><td>CI13471</td><td>Ganesh Dattaram Sutar</td><td>Trainee</td><td>M0</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>&nbsp;</td><td>29-Jul-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>207</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7567</td><td>CI13450</td><td>Vaibhav Kashinath Lingait</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Open Source / Java Technologies</td><td>DevOps</td><td>&nbsp;</td><td>28-Jul-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Krishnanand Tiwari</td><td>208</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7506</td><td>CI13434</td><td>Pankaj Bhrigunath Sahani</td><td>Trainee</td><td>M0</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>&nbsp;</td><td>27-Jul-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>209</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7507</td><td>CI13433</td><td>Afzal Ikram Khan</td><td>Trainee</td><td>M0</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>&nbsp;</td><td>27-Jul-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>209</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7513</td><td>CI13432</td><td>Arsalan Mohammad Hussain Khan</td><td>Trainee</td><td>M0</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>&nbsp;</td><td>27-Jul-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>209</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7515</td><td>CI13431</td><td>Mohammad Mushahid  Farooqui</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Open Source / Java Technologies</td><td>Advanced Java</td><td>&nbsp;</td><td>27-Jul-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Krishnanand Tiwari</td><td>209</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7517</td><td>CI13430</td><td>Dhaval Shailesh Vedant</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Automation</td><td>RPA</td><td>&nbsp;</td><td>27-Jul-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Krishnanand Tiwari</td><td>209</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7521</td><td>CI13429</td><td>Rushikesh Keshav Kadam</td><td>Trainee</td><td>M0</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>&nbsp;</td><td>27-Jul-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Kedar Dighe</td><td>209</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7430</td><td>CI13424</td><td>Taha Sultan Shaikh</td><td>DBA</td><td>M1</td><td>Delivery</td><td>DAM- Cyber Security</td><td>Imperva</td><td>L1,</td><td>27-Jul-2022</td><td>HDFC Bank Ltd.</td><td>100</td><td>Track Bench</td><td>22-Jan-2023</td><td>Maruf Farooq Khan</td><td>52</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 13 months</td>
+		</tr><tr>
+			<td>7382</td><td>CI13394</td><td>Subham Dash</td><td>DBA</td><td>M1</td><td>Delivery</td><td>Open Source / Java Technologies</td><td>ADF</td><td>My SQL</td><td>25-Jul-2022</td><td>Axis AMC Limited</td><td>100</td><td>Track Bench</td><td>20-Jan-2023</td><td>Krishnanand Tiwari</td><td>35</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 14 months</td>
+		</tr><tr>
+			<td>7389</td><td>CI13390</td><td>Maheshwari Nilesh Nayakwadi</td><td>Sr. Software Tester</td><td>M2</td><td>Delivery</td><td>Testing</td><td>Manual Testing</td><td>&nbsp;</td><td>25-Jul-2022</td><td>ICICI Lombard General Insurance</td><td>100</td><td>Track Bench</td><td>29-Oct-2022</td><td>Rajesh Ramakrishnan</td><td>143</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 13 months</td>
+		</tr><tr>
+			<td>7302</td><td>CI13287</td><td>Kiran Dnyaneshwar Sonawane</td><td>Asp.Net Developer</td><td>M1</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>C#, SQL Server</td><td>12-Jul-2022</td><td>Care Ratings Pvt. Ltd.</td><td>100</td><td>Track Bench</td><td>01-Dec-2022</td><td>Kedar Dighe</td><td>144</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 15 months</td>
+		</tr><tr>
+			<td>7277</td><td>CI13277</td><td>Vivek Santosh Pandey</td><td>Engineer -Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>Contract Center</td><td>11-Jul-2022</td><td>IDFC First Bank</td><td>100</td><td>Track Bench</td><td>17-Feb-2023</td><td>Sachin Suresh Prabhu</td><td>9</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 8 months</td>
+		</tr><tr>
+			<td>7463</td><td>CI13213</td><td>Rahul Vikas Gupta</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>01-Jul-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Mohammed Imran Ansari</td><td>235</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7490</td><td>CI13203</td><td>Pandharinath Venkatrao Sukewad</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>MySQL</td><td>&nbsp;</td><td>30-Jun-2022</td><td>Edelweiss Tokio Life Insurance</td><td>50</td><td>Partially Billable</td><td>07-Nov-2022</td><td>Krishnanand Tiwari</td><td>236</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7489</td><td>CI13202</td><td>Alfaiz Iqbal  Shaikh</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>PostgreSQL</td><td>&nbsp;</td><td>30-Jun-2022</td><td>HDFC Life Insurance</td><td>100</td><td>Track Bench</td><td>25-Jan-2023</td><td>Krishnanand Tiwari</td><td>236</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7477</td><td>CI13144</td><td>Vaibhav Vikas Khangate</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>PostgreSQL</td><td>&nbsp;</td><td>27-Jun-2022</td><td>Reliance Nippon Life Insurance Co Ltd.</td><td>70</td><td>Partially Billable</td><td>27-Oct-2022</td><td>Krishnanand Tiwari</td><td>239</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7467</td><td>CI13118</td><td>Pratik Deepak Mer</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>24-Jun-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Aniket Rane</td><td>242</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7464</td><td>CI13112</td><td>Swapnil Sandeep Kadam</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>MySQL</td><td>&nbsp;</td><td>23-Jun-2022</td><td>Avenue Supermarts Limited</td><td>25</td><td>Partially Billable</td><td>24-Jan-2023</td><td>Krishnanand Tiwari</td><td>243</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7429</td><td>CI13108</td><td>Vaibhav Vilas Margaje</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>MySQL</td><td>&nbsp;</td><td>22-Jun-2022</td><td>HDFC Life Insurance</td><td>50</td><td>Partially Billable</td><td>26-Sep-2022</td><td>Krishnanand Tiwari</td><td>244</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>6971</td><td>CI13014</td><td>Prasad Nandu Kamble</td><td>YESBank_ChannelsDigiAPP_Supp2</td><td>M2</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>&nbsp;</td><td>11-Jun-2022</td><td>Yes Bank</td><td>100</td><td>Track Bench</td><td>26-Dec-2022</td><td>Thomson Thomas Pappachen</td><td>57</td><td>&nbsp;</td><td>&nbsp;</td><td>5 years 14 months</td>
+		</tr><tr>
+			<td>7114</td><td>CI12956</td><td>Shivam Kumar Shukla</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>Mongo DB</td><td>&nbsp;</td><td>02-Jun-2022</td><td>Cholamandalam Investment &amp; Finance Ltd.</td><td>50</td><td>Partially Billable</td><td>26-Sep-2022</td><td>Krishnanand Tiwari</td><td>264</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>6906</td><td>CI12900</td><td>Sachin Sanjay Rathod</td><td>YESBank_EODBOD_1</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Insurance Applications</td><td>&nbsp;</td><td>31-May-2022</td><td>IDFC First Bank</td><td>100</td><td>Track Bench</td><td>16-Dec-2022</td><td>Sachin Suresh Prabhu</td><td>75</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 12 months</td>
+		</tr><tr>
+			<td>6887</td><td>CI12885</td><td>Nehal Taufique Bubere</td><td>Mobile App Developer</td><td>M2</td><td>Delivery</td><td>Mobile Technolgoies</td><td>Android</td><td>React Native</td><td>31-May-2022</td><td>Bajaj Allianz Life Insurance Ltd</td><td>100</td><td>Track Bench</td><td>29-Dec-2022</td><td>Saumya Shivaji Vemula</td><td>67</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 13 months</td>
+		</tr><tr>
+			<td>7112</td><td>CI12884</td><td>Dileep R</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>PLSQL</td><td>PLSQL Developer</td><td>&nbsp;</td><td>31-May-2022</td><td>Bajaj Allianz General Insurance company</td><td>100</td><td>Track Bench</td><td>06-Feb-2023</td><td>Veena Subhash Kamath</td><td>52</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7097</td><td>CI12869</td><td>Shadman Shamim</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>PostgreSQL</td><td>&nbsp;</td><td>30-May-2022</td><td>Larsen and Toubro Finance</td><td>75</td><td>Partially Billable</td><td>27-Oct-2022</td><td>Krishnanand Tiwari</td><td>267</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7079</td><td>CI12805</td><td>Nitin Sanjay Nikam</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Open Source / Java Technologies</td><td>Advanced Java</td><td>&nbsp;</td><td>23-May-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Ameya Gurjarpadhye - (ICICI BANK)</td><td>274</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7074</td><td>CI12773</td><td>Gujarathi Dhruv Vishnukumar</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>Mongo DB</td><td>&nbsp;</td><td>18-May-2022</td><td>Edelweiss Financial Services</td><td>50</td><td>Partially Billable</td><td>26-Sep-2022</td><td>Krishnanand Tiwari</td><td>279</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>7065</td><td>CI12746</td><td>Ankita Anant Raul</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Open Source / Java Technologies</td><td>Advanced Java</td><td>&nbsp;</td><td>16-May-2022</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>Ameya Gurjarpadhye - (ICICI BANK)</td><td>281</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>39</td><td>CI1268</td><td>Ameya Gurjarpadhye - (ICICI BANK)</td><td>Manager - Delivery</td><td>M5</td><td>Delivery</td><td>Open Source / Java Technologies</td><td>ADF</td><td>&nbsp;</td><td>07-Jul-2011</td><td>Oracle ACS</td><td>20</td><td>Partially Billable</td><td>06-Jun-2022</td><td>Faiyaz Habib Virani</td><td>309</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>6711</td><td>CI12663</td><td>Dhananjay Poul</td><td>ETL Support</td><td>M1</td><td>Delivery</td><td>BI-DW Technologies</td><td>Informatica</td><td>ETL Support</td><td>02-May-2022</td><td>Axis Bank Ltd</td><td>100</td><td>Track Bench</td><td>02-Dec-2022</td><td>Dharmaraju Vemula</td><td>82</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 20 months</td>
+		</tr><tr>
+			<td>7056</td><td>CI12598</td><td>Suraj Gupta</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Middleware</td><td>Middleware Admin</td><td>&nbsp;</td><td>26-Apr-2022</td><td>State Bank of Mauritius Ltd.</td><td>100</td><td>Track Bench</td><td>08-Feb-2023</td><td>Sowdagar Khaleel Basha</td><td>21</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>6622</td><td>CI12503</td><td>Pranav Milind Jadhav</td><td>&nbsp;</td><td>M0</td><td>Delivery Academy</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>&nbsp;</td><td>08-Apr-2022</td><td>Kotak Mahindra General Insurance</td><td>100</td><td>Track Bench</td><td>14-Nov-2022</td><td>Varunkumar Harinath Upadhyay</td><td>144</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>6418</td><td>CI12433</td><td>Mahesh salunke</td><td>Senior Consultant</td><td>M2</td><td>Delivery</td><td>Database Administration</td><td>Microsoft SQL Server</td><td>&nbsp;</td><td>31-Mar-2022</td><td>Axis Bank Ltd</td><td>100</td><td>Track Bench</td><td>20-Jan-2023</td><td>Siddhesh Chothave</td><td>65</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 15 months</td>
+		</tr><tr>
+			<td>6474</td><td>CI12420</td><td>Anil Balbahadur Singh</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>Oracle EBS Technical</td><td>Core EBS Technical</td><td>&nbsp;</td><td>30-Mar-2022</td><td>Kotak Life Insurance</td><td>50</td><td>Partially Billable</td><td>19-Aug-2022</td><td>Akshay Narendra Jadhav</td><td>328</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 11 months</td>
+		</tr><tr>
+			<td>6592</td><td>CI12391</td><td>Shraddha  Diwekar</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>DAM- Cyber Security</td><td>Imperva</td><td>&nbsp;</td><td>28-Mar-2022</td><td>HDFC Bank Ltd.</td><td>100</td><td>Track Bench</td><td>20-Jan-2023</td><td>Kaustubh Narendra Nagwekar</td><td>52</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>6582</td><td>CI12361</td><td>Mahesh Malhari Shinde</td><td>L1-Internal</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>MySQL</td><td>&nbsp;</td><td>24-Mar-2022</td><td>Clover Delivery</td><td>60</td><td>Partially Billable</td><td>12-Dec-2022</td><td>Krishnanand Tiwari</td><td>334</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>6215</td><td>CI12235</td><td>Raghuttam R Kulkarni</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>MySQL</td><td>&nbsp;</td><td>08-Mar-2022</td><td>Mahindra Logistics Limited</td><td>50</td><td>Partially Billable</td><td>07-Nov-2022</td><td>Krishnanand Tiwari</td><td>350</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 16 months</td>
+		</tr><tr>
+			<td>6202</td><td>CI12206</td><td>Ahtesham Shaikh</td><td>Consultant</td><td>M1</td><td>Delivery Academy</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>03-Mar-2022</td><td>Aditya Birla Finance Limited</td><td>80</td><td>Partially Billable</td><td>17-Jan-2023</td><td>Rashid Sarwerali Baig</td><td>355</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 18 months</td>
+		</tr><tr>
+			<td>6555</td><td>CI12187</td><td>Sanket Ashok Palekar</td><td>L1-Internal</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>Microsoft SQL Server</td><td>&nbsp;</td><td>28-Feb-2022</td><td>Glenmark Pharmaceuticals</td><td>65</td><td>Partially Billable</td><td>01-Oct-2022</td><td>Siddhesh Chothave</td><td>358</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>6197</td><td>CI12157</td><td>Anil Pal</td><td>Team Leader</td><td>M3</td><td>Delivery</td><td>Open Source / Java Technologies</td><td>Advanced Java</td><td>&nbsp;</td><td>26-Feb-2022</td><td>Bennett Coleman and Company Limited</td><td>20</td><td>Partially Billable</td><td>02-Aug-2022</td><td>Faiyaz Habib Virani</td><td>266</td><td>&nbsp;</td><td>&nbsp;</td><td>8 years 0 months</td>
+		</tr><tr>
+			<td>6180</td><td>CI12132</td><td>Krashna Kakade</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>24-Feb-2022</td><td>Fullerton India Credit Company Ltd.</td><td>10</td><td>Partially Billable</td><td>19-Aug-2022</td><td>Saif Mohd Iqbal Shaikh</td><td>362</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 0 months</td>
+		</tr><tr>
+			<td>6314</td><td>CI12116</td><td>Sohel Mohamdhanif Momin</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>22-Feb-2022</td><td>Axis Bank Ltd</td><td>100</td><td>Track Bench</td><td>14-Feb-2023</td><td>Maruf Farooq Khan</td><td>24</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>6290</td><td>CI12036</td><td>Sachin Gorakhnath Verma</td><td>L1-Internal</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>Microsoft SQL Server</td><td>&nbsp;</td><td>14-Feb-2022</td><td>Aditya Birla Finance Limited</td><td>55</td><td>Partially Billable</td><td>18-Jan-2023</td><td>Siddhesh Chothave</td><td>372</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>6039</td><td>CI12000</td><td>Bharat Nanabhau Dhyanekar</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>&nbsp;</td><td>10-Feb-2022</td><td>IndusInd Bank</td><td>100</td><td>Track Bench</td><td>15-Jun-2022</td><td>Trushita Dilip Tarkar</td><td>94</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 2 months</td>
+		</tr><tr>
+			<td>5984</td><td>CI11908</td><td>Ram Dharmraj Singh</td><td>L1-Internal</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>Microsoft SQL Server</td><td>&nbsp;</td><td>31-Jan-2022</td><td>Aditya Birla Health Insurance Co. Limited</td><td>100</td><td>Track Bench</td><td>03-Feb-2023</td><td>Siddhesh Chothave</td><td>38</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>6085</td><td>CI11869</td><td>Mamta Sugriv Goud</td><td>L1-Internal</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>PostgreSQL</td><td>&nbsp;</td><td>28-Jan-2022</td><td>Yes Bank</td><td>50</td><td>Partially Billable</td><td>23-Jan-2023</td><td>Krishnanand Tiwari</td><td>326</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5317</td><td>CI11842</td><td>Pranil Mahadik</td><td>Senior Consultant</td><td>M2</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>27-Jan-2022</td><td>Glenmark Pharmaceuticals</td><td>90</td><td>Partially Billable</td><td>13-Jul-2022</td><td>Saif Mohd Iqbal Shaikh</td><td>390</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 1 months</td>
+		</tr><tr>
+			<td>5259</td><td>CI11778</td><td>Rajat Kumar Tiwari</td><td>Senior Consultant</td><td>M2</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>UPI Support  Tom Cat Apache</td><td>18-Jan-2022</td><td>Axis Bank Ltd</td><td>100</td><td>Track Bench</td><td>03-Nov-2022</td><td>Jatinder Pal Avtar Singh</td><td>143</td><td>&nbsp;</td><td>&nbsp;</td><td>5 years 1 months</td>
+		</tr><tr>
+			<td>5945</td><td>CI11769</td><td>Pooja Chandrashekhar Lende</td><td>L1-Internal</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>Microsoft SQL Server</td><td>&nbsp;</td><td>18-Jan-2022</td><td>BAJAJ ELECTRICALS LTD</td><td>40</td><td>Partially Billable</td><td>06-Oct-2022</td><td>Siddhesh Chothave</td><td>399</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5935</td><td>CI11763</td><td>Ankit Mahesh Kurlapkar</td><td>L1-Internal</td><td>M0</td><td>Delivery Academy</td><td>Database Administration</td><td>Microsoft SQL Server</td><td>&nbsp;</td><td>17-Jan-2022</td><td>Aditya Birla Health Insurance Co. Limited</td><td>50</td><td>Partially Billable</td><td>18-Jan-2023</td><td>Siddhesh Chothave</td><td>400</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5939</td><td>CI11759</td><td>Swapnil Popat Bhavar</td><td>L1-Internal</td><td>M0</td><td>Delivery Academy</td><td>Portal Technologies</td><td>Oracle Webcenter Suite</td><td>&nbsp;</td><td>17-Jan-2022</td><td>Bajaj Finance Ltd.</td><td>100</td><td>Track Bench</td><td>20-Feb-2023</td><td>Neeraj Gopal Darolia</td><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5174</td><td>CI11714</td><td>Reena Kishor Bhalerao</td><td>Senior Software Engineer</td><td>M2</td><td>Delivery</td><td>Microsoft Technologies</td><td>ASP .Net</td><td>&nbsp;</td><td>11-Jan-2022</td><td>HDFC Ergo General Insurance</td><td>100</td><td>Track Bench</td><td>15-Feb-2023</td><td>Kedar Dighe</td><td>52</td><td>&nbsp;</td><td>&nbsp;</td><td>9 years 1 months</td>
+		</tr><tr>
+			<td>5865</td><td>CI11604</td><td>Rachana Mukund Peshave</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>PLSQL</td><td>Developer</td><td>&nbsp;</td><td>29-Dec-2021</td><td>Bajaj Allianz General Insurance company</td><td>100</td><td>Track Bench</td><td>29-Jan-2023</td><td>Veena Subhash Kamath</td><td>113</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5168</td><td>CI11592</td><td>Akshay Ajay Padwal</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Operating Systems</td><td>Linux</td><td>&nbsp;</td><td>28-Dec-2021</td><td>Bajaj Finserv Ltd.</td><td>50</td><td>Partially Billable</td><td>27-Jul-2022</td><td>Sandeep Kumawat</td><td>420</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5064</td><td>CI11556</td><td>Gorakh Chaudhari</td><td>Team Leader</td><td>M3</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>27-Dec-2021</td><td>Axis Bank Ltd</td><td>100</td><td>Track Bench</td><td>14-Feb-2023</td><td>Ritesh Ashok Khatokar</td><td>22</td><td>&nbsp;</td><td>&nbsp;</td><td>12 years 2 months</td>
+		</tr><tr>
+			<td>5665</td><td>CI11545</td><td>Arvindraj Selva Kumar</td><td>Network Engineer</td><td>M1</td><td>Delivery</td><td>NOC Tools</td><td>Network Engineer</td><td>&nbsp;</td><td>24-Dec-2021</td><td>Clover Delivery</td><td>100</td><td>Track Bench</td><td>28-Oct-2022</td><td>Saif Mohd Iqbal Shaikh</td><td>144</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5005</td><td>CI11444</td><td>Sanjay Krishna Mundhe</td><td>Senior Consultant</td><td>M2</td><td>Delivery</td><td>Virtualization technologies</td><td>Vmware</td><td>Nutanix, HCI</td><td>13-Dec-2021</td><td>Saraswat Bank</td><td>100</td><td>Track Bench</td><td>15-Feb-2023</td><td>D Ram Narayan Singh</td><td>75</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 9 months</td>
+		</tr><tr>
+			<td>5808</td><td>CI11295</td><td>Mayur Ravindra Tawade</td><td>L1-Internal</td><td>M0</td><td>Delivery Academy</td><td>Bigdata Technologies</td><td>Mongo DB</td><td>&nbsp;</td><td>23-Nov-2021</td><td>Edelweiss Financial Services</td><td>50</td><td>Partially Billable</td><td>14-Jun-2022</td><td>Krishnanand Tiwari</td><td>455</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5595</td><td>CI11202</td><td>Rahul Tiwari</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>&nbsp;</td><td>13-Nov-2021</td><td>Kotak Mahindra Bank Ltd.</td><td>100</td><td>Track Bench</td><td>30-Dec-2022</td><td>Dharmaraju Vemula</td><td>83</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5687</td><td>CI11105</td><td>Vaibhav Ananta Thakare</td><td>Software Engineer</td><td>M1</td><td>Delivery</td><td>Portal Technologies</td><td>Oracle Webcenter Suite</td><td>&nbsp;</td><td>30-Oct-2021</td><td>AU Small Finance Bank</td><td>50</td><td>Partially Billable</td><td>20-Sep-2022</td><td>Faiyaz Habib Virani</td><td>205</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5781</td><td>CI11072</td><td>Hitesh Dilip Sutar</td><td>&nbsp;</td><td>M0</td><td>Delivery Academy</td><td>Oracle EBS Functional</td><td>Financials</td><td>&nbsp;</td><td>29-Oct-2021</td><td>HDFC Bank Ltd.</td><td>50</td><td>Partially Billable</td><td>12-Aug-2022</td><td>Abhijit Sunil Jambhale</td><td>196</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5686</td><td>CI11061</td><td>Azharuddin Mohammad Usman Momin</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>28-Oct-2021</td><td>Reliance Home Finance Ltd</td><td>10</td><td>Partially Billable</td><td>07-Nov-2022</td><td>Saif Mohd Iqbal Shaikh</td><td>481</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>4760</td><td>CI11031</td><td>Priyanka Yadav</td><td>Senior Engineer - Technical Support</td><td>M2</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>&nbsp;</td><td>26-Oct-2021</td><td>IDFC First Bank</td><td>100</td><td>Track Bench</td><td>19-Jan-2023</td><td>Sachin Suresh Prabhu</td><td>87</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 4 months</td>
+		</tr><tr>
+			<td>4746</td><td>CI11009</td><td>Dinesh Shinde</td><td>Consultant</td><td>M1</td><td>Delivery</td><td>Database Administration</td><td>Oracle</td><td>&nbsp;</td><td>21-Oct-2021</td><td>Bajaj Allianz General Insurance company</td><td>100</td><td>Track Bench</td><td>10-Nov-2022</td><td>Janmesh Prathamesh Sharma</td><td>204</td><td>&nbsp;</td><td>&nbsp;</td><td>1 years 4 months</td>
+		</tr><tr>
+			<td>5242</td><td>CI10958</td><td>Hashim Abdul Azeez TA</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>NOC Tools</td><td>Network Engineer</td><td>&nbsp;</td><td>13-Oct-2021</td><td>Care Health Insurance</td><td>100</td><td>Track Bench</td><td>28-Oct-2022</td><td>Kulbir Singh</td><td>131</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>4772</td><td>CI10923</td><td>Kaustubh Narendra Nagwekar</td><td>Project Leader</td><td>M4</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>&nbsp;</td><td>09-Oct-2021</td><td>ICICI Lombard General Insurance</td><td>100</td><td>Track Bench</td><td>15-Nov-2022</td><td>Vikram Gite</td><td>144</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5753</td><td>CI10839</td><td>Rutuja Dilip Vade</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>DAM- Cyber Security</td><td>Imperva</td><td>&nbsp;</td><td>30-Sep-2021</td><td>HDFC Bank Ltd.</td><td>100</td><td>Track Bench</td><td>20-Jan-2023</td><td>Kaustubh Narendra Nagwekar</td><td>52</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>5482</td><td>CI10761</td><td>Rupesh Rajendra Patil</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>&nbsp;</td><td>22-Sep-2021</td><td>IDFC First Bank</td><td>100</td><td>Reserved</td><td>20-Feb-2023</td><td>Sachin Suresh Prabhu</td><td>-10</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>4381</td><td>CI10437</td><td>Rahul Bhila Patil</td><td>Engineer - Technical Support</td><td>M1</td><td>Delivery</td><td>SDU - Apps Support</td><td>Application Support &amp; Monitoring</td><td>ABL_TM_Application Support_46920</td><td>31-Jul-2021</td><td>Axis Bank Ltd</td><td>100</td><td>Track Bench</td><td>17-Nov-2022</td><td>Dharmaraju Vemula</td><td>173</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 10 months</td>
+		</tr><tr>
+			<td>5888</td><td>CI10403</td><td>Vishal&#160;Ghodake</td><td>Trainee</td><td>M0</td><td>Delivery Academy</td><td>Bigdata Technologies</td><td>Mongo DB</td><td>&nbsp;</td><td>28-Jul-2021</td><td>Yes Bank</td><td>50</td><td>Partially Billable</td><td>24-Jan-2023</td><td>Krishnanand Tiwari</td><td>573</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>4166</td><td>CI10121</td><td>Hari Om Dixit</td><td>Senior Consultant</td><td>M2</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Insurance Applications</td><td>&nbsp;</td><td>03-Jun-2021</td><td>Religare Broking Ltd.</td><td>100</td><td>Track Bench</td><td>09-Nov-2022</td><td>Jatinder Pal Avtar Singh</td><td>628</td><td>&nbsp;</td><td>&nbsp;</td><td>NA</td>
+		</tr><tr>
+			<td>8957</td><td>&nbsp;</td><td>Amitkumar Sahani</td><td>&nbsp;</td><td>M1</td><td>Delivery</td><td>Quality Assurance&#160;</td><td>IT Audit</td><td>CMMi 2.0</td><td>06-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>&nbsp;</td><td>15</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 2 months</td>
+		</tr><tr>
+			<td>9041</td><td>&nbsp;</td><td>MANISHA YADAV</td><td>&nbsp;</td><td>M2</td><td>Delivery</td><td>Project Management</td><td>Project Management</td><td>&nbsp;</td><td>20-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>6 years 0 months</td>
+		</tr><tr>
+			<td>9047</td><td>&nbsp;</td><td>Disha Patil</td><td>&nbsp;</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Insurance Applications</td><td>&nbsp;</td><td>20-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 5 months</td>
+		</tr><tr>
+			<td>9048</td><td>&nbsp;</td><td>Chitikela Chinna Babulu</td><td>&nbsp;</td><td>M2</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>20-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>3 years 6 months</td>
+		</tr><tr>
+			<td>9049</td><td>&nbsp;</td><td>Swapnil Phirke</td><td>&nbsp;</td><td>M1</td><td>Delivery</td><td>Application Support &amp; Monitoring</td><td>Banking Applications</td><td>Oracle, SQL, Java, Web Server, App Server, Linux  Monitoring,SOP,SLA</td><td>20-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>2 years 8 months</td>
+		</tr><tr>
+			<td>9050</td><td>&nbsp;</td><td>K Rukmini Chandrika</td><td>&nbsp;</td><td>M2</td><td>Delivery</td><td>Application Support</td><td>Application Support</td><td>&nbsp;</td><td>20-Feb-2023</td><td>&nbsp;</td><td>100</td><td>Track Bench</td><td>&nbsp;</td><td>&nbsp;</td><td>1</td><td>&nbsp;</td><td>&nbsp;</td><td>4 years 1 months</td>
+		</tr>
+	</table>
+</div><style> .text { mso-number-format:\@; } </script>

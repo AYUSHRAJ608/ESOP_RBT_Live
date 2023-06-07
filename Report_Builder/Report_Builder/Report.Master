@@ -1,0 +1,109 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Report.master.cs" Inherits="Report_Builder.Report" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>- :: Report Central Login :: -</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="stylesheet" href="Styles/fonts.css" />
+
+    <link rel="stylesheet" href="Styles/bootstrap-4.5.0.min.css" />
+    <link rel="stylesheet" href="Styles/font-awesome-4.7.0.min.css" />
+    <link rel="stylesheet" href="Styles/style.css" type="text/css" />
+    <link href="Styles/sumoselect.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" />
+
+    <style>
+        h4 {
+            color: #2600ff !important;
+        }
+    </style>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server" autocomplete="off">
+        <asp:ScriptManager ID="ScriptManager101" runat="server"></asp:ScriptManager>
+        <!--header area start-->
+        <header>
+            <div class="row p-4">
+                <div class="col-md-4 text-center pl-3" style="margin-top: -15px;">
+                    <h4><b>Report Central</b></h4>
+                </div>
+                <div class="col-md-8 text-right log_txt">
+                    <span>Logged in :
+                                    <asp:Label ID="lblUser" runat="server" Text=""></asp:Label></span>
+                    <span>
+                        <a href="http://192.168.7.199:8089/Login.aspx">
+                            <img src="img/logout.png" />
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </header>
+        <!--header area end-->
+        <!--mobile navigation bar start-->
+        <div class="mobile_nav">
+            <div class="nav_bar">
+                <i class="fa fa-bars nav_btn"></i>
+            </div>
+            <div class="mobile_nav_items">
+                <ul class="nav nav-tabs" id="MiniLeftNav">
+                    <li class="nav-item" id="li_dash_mob" runat="server">
+                        <a class="navtext nav-link active" href="Dashboard.aspx"><i class="fas fa-home"></i><span>Home</span></a>
+                    </li>
+                    <li class="nav-item" id="li_createRpt_mob" runat="server">
+                        <a class="navtext nav-link" href="CreateReport.aspx"><i class="fas fa-th"></i><span>Create Report</span></a>
+                    </li>
+                    <li class="nav-item" id="li_ShareRpt_mob" runat="server">
+                        <a class="navtext nav-link" href="SharedRpt.aspx"><i class="fas fa-table"></i><span>Shared Report</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--mobile navigation bar end-->
+        <!--sidebar start-->
+        <div class="sidebar">
+            <ul class="nav nav-tabs" id="MiniLeftNav">
+                <li class="nav-item" id="li_dash" runat="server">
+                    <a class="navtext nav-link active" href="Dashboard.aspx"><i class="fas fa-home"></i><span>Home</span></a>
+                </li>
+                <li class="nav-item" id="li_createRpt" runat="server">
+                    <a class="navtext nav-link" href="CreateReport.aspx"><i class="fas fa-th"></i><span>Create Report</span></a>
+                </li>
+                <li class="nav-item" id="li_ShareRpt" runat="server">
+                    <a class="navtext nav-link" href="SharedRpt.aspx"><i class="fas fa-table"></i><span>Shared Report</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="card" style="border:0px !important;">
+                <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </form>
+</body>
+
+<%--<script src="jquery.sumoselect.min.js"></script>--%>
+<script src="js/jquery.sumoselect.min.js"></script>
+<script type="text/javascript">
+    function callJsForSumoSel() {
+        $('.listboxDiv').SumoSelect({ search: true, searchText: 'Enter here.' });
+    }
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('.nav_btn').click(function () {
+            $('.mobile_nav_items').toggleClass('active');
+        });
+    });
+</script>
+
+</html>

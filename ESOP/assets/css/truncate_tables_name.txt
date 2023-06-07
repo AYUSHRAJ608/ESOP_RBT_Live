@@ -1,0 +1,24 @@
+esop_tbl_grant_vesting_details
+esop_tbl_grant_creation_master
+esop_tbl_vesting_master
+
+select * from esop_tbl_grant_vesting_details;
+
+truncate table esop_tbl_grant_creation_master
+truncate table esop_tbl_grant_creation_master_audit
+commit
+truncate table esop_tbl_vesting_master
+truncate table  esop_tbl_employee_exercise_transaction
+truncate table esop_tbl_employee_exercise_transaction_details
+
+truncate table  esop_tbl_employee_sale_transaction
+
+truncate table esop_tbl_employee_sale_transaction_details
+
+truncate table esop_tbl_grant_creation_master_audit
+
+truncate table esop_tbl_vesting_master_audit
+
+truncate table esop_tbl_grant_vesting_details_audit
+
+select * FROM esop_tbl_employee_exercise_transaction_details 

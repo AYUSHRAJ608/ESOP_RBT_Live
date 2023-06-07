@@ -1,0 +1,39 @@
+<div>
+	<table cellspacing="0" rules="all" class="table" border="1" id="ContentPlaceHolder1_GrvApproved" style="border-collapse:collapse;">
+		<tr style="font-weight:bold;">
+			<th scope="col" style="width:1%;">SrNo</th><th scope="col">Employee ID</th><th scope="col">Employee Name</th><th scope="col">Tranch Code</th><th scope="col">Date of Grant</th><th scope="col">Vest Code</th><th scope="col">Date of Vest</th><th scope="col">No. of Options</th><th scope="col">Tranch Vesting</th><th scope="col">Percentage</th><th scope="col">Approved by</th><th scope="col">Approved Date</th><th scope="col">Admin Remark</th><th scope="col">President Remark</th><th scope="col">Proxy</th>
+		</tr><tr>
+			<td>
+                                                        <span id="ContentPlaceHolder1_GrvApproved_lblSrNo_0">1</span>
+                                                     </td><td>4270</td><td>Anurag Rastogi</td><td>TRANCH6</td><td>24-APR-2014</td><td>V1</td><td>24-APR-2016</td><td>12500</td><td>TRANCH6V1</td><td>25</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>
+                                                        <span id="ContentPlaceHolder1_GrvApproved_lblSrNo_1">2</span>
+                                                     </td><td>4270</td><td>Anurag Rastogi</td><td>TRANCH6</td><td>24-APR-2014</td><td>V2</td><td>24-APR-2017</td><td>12500</td><td>TRANCH6V2</td><td>25</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>
+                                                        <span id="ContentPlaceHolder1_GrvApproved_lblSrNo_2">3</span>
+                                                     </td><td>4270</td><td>Anurag Rastogi</td><td>TRANCH6</td><td>24-APR-2014</td><td>V3</td><td>24-APR-2018</td><td>25000</td><td>TRANCH6V3</td><td>50</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>
+                                                        <span id="ContentPlaceHolder1_GrvApproved_lblSrNo_3">4</span>
+                                                     </td><td>4280</td><td>Dayananda Shetty</td><td>TRANCH6</td><td>24-APR-2014</td><td>V1</td><td>24-APR-2016</td><td>12500</td><td>TRANCH6V1</td><td>25</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>
+                                                        <span id="ContentPlaceHolder1_GrvApproved_lblSrNo_4">5</span>
+                                                     </td><td>4280</td><td>Dayananda Shetty</td><td>TRANCH6</td><td>24-APR-2014</td><td>V2</td><td>24-APR-2017</td><td>12500</td><td>TRANCH6V2</td><td>25</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>
+                                                        <span id="ContentPlaceHolder1_GrvApproved_lblSrNo_5">6</span>
+                                                     </td><td>4280</td><td>Dayananda Shetty</td><td>TRANCH6</td><td>24-APR-2014</td><td>V3</td><td>24-APR-2018</td><td>25000</td><td>TRANCH6V3</td><td>50</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>
+                                                        <span id="ContentPlaceHolder1_GrvApproved_lblSrNo_6">7</span>
+                                                     </td><td>3711</td><td>Priyank Sapra</td><td>TRANCH6</td><td>24-APR-2014</td><td>V1</td><td>24-APR-2016</td><td>8750</td><td>TRANCH6V1</td><td>25</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr><tr>
+			<td>
+                                                        <span id="ContentPlaceHolder1_GrvApproved_lblSrNo_7">8</span>
+                                                     </td><td>3711</td><td>Priyank Sapra</td><td>TRANCH6</td><td>24-APR-2014</td><td>V2</td><td>24-APR-2017</td><td>8750</td><td>TRANCH6V2</td><td>25</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td><td>&nbsp;</td>
+		</tr>
+	</table>
+</div>

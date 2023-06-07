@@ -1,0 +1,737 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="ESOP.master.cs" Inherits="ESOP.ESOP" %>
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <script src="Scripts/Encrypt_Decrypt.js"></script>
+    <script type="text/javascript">
+        function openModalShow() {
+            //alert('hi');
+            $('#myModal').modal('show');
+        }
+
+        function openInNewTab(url) {
+            debugger;
+            ValidateForm('<%=Session["UserName"] %>' + "," + '<%=Session["ECode"] %>' + ",ESOP", url);
+        }
+    </script>
+    <script type="text/javascript">
+        window.addEventListener('keydown', function (e) { if (e.keyIdentifier == 'U+000A' || e.keyIdentifier == 'Enter' || e.keyCode == 13) { if (e.target.nodeName == 'INPUT' && e.target.type == 'text') { e.preventDefault(); return false; } } }, true);
+    </script>
+    <script type="text/javascript">
+
+        function dropchange() {
+            document.getElementById("<%=Button1.ClientID%>").click();
+        }
+    </script>
+    <script type="text/javascript">
+
+        function openPopup() {
+            window.open("proxy.aspx", "_blank", "WIDTH=800,HEIGHT=400,top=100,left=300,scrollbars=no, menubar=no,resizable=yes,directories=no,location=no");
+
+        }
+    </script>
+
+
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+    <title>ESOP</title>
+    <!-- General CSS Files -->
+    <link rel="stylesheet" href="assets/css/app.min.css">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/components.css">
+    <link rel="stylesheet" href="assets/bundles/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="assets/bundles/flag-icon-css/css/flag-icon.min.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/bundles/bootstrap-daterangepicker/daterangepicker.css">
+    <link rel="stylesheet" href="assets/bundles/bootstrap-timepicker/css/bootstrap-timepicker.min.css">
+    <link rel="stylesheet" href="assets/bundles/prism/prism.css">
+    <link rel='shortcut icon' type='image/x-icon' href='assets/img/favicon.ico' />
+    <style>
+        /*.dropdown-item.has-icon i {
+            margin-top: 10px;
+            font-size: 26px;
+            color: red;
+        }*/
+        .fa-times:before {
+            content: "\f00d";
+            color: #fff;
+            font-size: 22px;
+            margin-left: 6px;
+            position: absolute;
+            top: 4px;
+        }
+
+        .fa-window-close:before {
+            color: red;
+            content: "\f410";
+        }
+
+        .btn-group {
+            height: 34px;
+        }
+
+        table.simple-tree-table span.tree-icon.tree-closed, table.simple-tree-table span.tree-icon.tree-opened {
+            background-color: #2673FF !important;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 31px;
+            color: #fff;
+            display: inline-block;
+        }
+
+            table.simple-tree-table span.tree-icon.tree-closed:after {
+                content: "+";
+                line-height: 22px;
+                font-size: 25px;
+            }
+
+            table.simple-tree-table span.tree-icon.tree-opened:after {
+                content: "-";
+                line-height: 18px;
+                font-size: 32px;
+            }
+
+        table.simple-tree-table span.tree-icon {
+            display: inline-block;
+            width: 23px !important;
+            margin: 5px;
+            padding: 0;
+            height: 23px;
+            line-height: 18px;
+            vertical-align: -3px;
+        }
+
+        .table th {
+            color: #2673FF;
+            background: #838b981f;
+            font-size: 16px !important;
+            letter-spacing: 0.2px;
+            font-weight: 500 !important;
+            text-shadow: none;
+            border: 0 !important;
+        }
+        /* span.tree-icon {
+         margin-left: 34px !important;
+         } */
+        .main-content {
+            padding-top: 40px;
+        }
+
+        .main-footer {
+            margin-top: 29px;
+        }
+
+        table.simple-tree-table span.tree-icon {
+            display: none;
+        }
+
+        .sidebar-mini .main-sidebar .sidebar-menu > li > a span {
+            display: none;
+            width: auto !important;
+        }
+
+        .chosen-container {
+            position: relative;
+            display: inline-block;
+            vertical-align: middle;
+            font-size: 13px;
+            width: 350px !important;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        .mr-5, .mx-5 {
+            margin-right: 15rem !important;
+        }
+
+        .chosen-container-single .chosen-single {
+            position: relative;
+            height: 30px !important;
+        }
+
+        .form-control:not(.form-control-sm):not(.form-control-lg) {
+            font-size: 13px;
+            padding: 10px 15px;
+            line-height: 1.4;
+            height: 31px !important;
+        }
+
+        select.form-control:not([size]):not([multiple]) {
+            height: 34px;
+        }
+
+        .form-control:not(.form-control-sm):not(.form-control-lg), .input-group-text, select.form-control:not([size]):not([multiple]) {
+            font-size: 14px;
+            padding: 0px 15px;
+        }
+
+        /*.btn.btn-lg {
+            padding: 0px 0.8rem;
+        }*/
+
+        /*.btn.btn-lg {
+            padding: 0.1rem 0.8rem;
+            color: white !important;
+            height: 27px;
+            line-height: 1;
+            margin-left: 7px !IMPORTANT;
+        }*/
+
+        .btn.btn-lg {
+            /*padding: 0.40rem 1.5rem;*/
+            color: white !important;
+            line-height: 24px;
+            margin-left: 7px !IMPORTANT;
+            background: #2600ff !IMPORTANT;
+            ;
+            border: 2px solid #09728a;
+            margin: 0;
+            white-space: nowrap;
+        }
+
+        input#btnProxyLogin, input#btnFilter {
+            border-radius: 6px;
+        }
+
+        /*.modal.show .modal-content {
+            width: 85%;
+        }*/
+
+        .col-md-3 {
+            padding-right: 0px;
+            padding-left: 9px;
+        }
+
+        span#lbl_text {
+            font-size: 12px;
+            color: red;
+            margin-top: 10px;
+            margin-left: 13px;
+        }
+
+        i.fa.fa-times {
+            position: absolute;
+            left: 102%;
+            top: -27px;
+            background: red;
+            border-radius: 22px;
+            width: 30px;
+            height: 30px;
+            padding: 1px;
+        }
+
+        a#A5 {
+            position: relative;
+        }
+
+        .navbar .imagediv:hover {
+            color: #fff;
+            transform: scale(1.4);
+        }
+
+        .modal-backdrop.in {
+            display: none;
+        }
+
+        .CloseBtnNew {
+            margin-top: 0 !important;
+        }
+
+        .modal input, .modal select {
+            padding: 1px 5px !important;
+        }
+
+        @media (min-width: 992px) {
+            .modal-lg {
+                max-width: 900px !important;
+            }
+        }
+        .modal.show .modal-content {
+            width: 100% !important; 
+        }
+
+        a.btn.btn-info.all:hover{
+            color: white !important;
+            background: #2600ff !important;
+            border: 2px solid transparent !important
+        s}
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+
+
+<body class="sidebar-mini">
+    <form id="form1" runat="server" autocomplete="off">
+        <div class="loader"></div>
+        <div id="app">
+            <div class="main-wrapper main-wrapper-1">
+                <div class="navbar-bg"></div>
+                <nav class="navbar navbar-expand-lg main-navbar">
+                    <div class="form-inline mr-auto">
+                        <ul class="navbar-nav mr-3">
+                            <li>
+                                <h2 class="logo">ESOP</h2>
+
+
+                            </li>
+                        </ul>
+                        <span class="title" style="font-weight: 500">
+                            <asp:Label ID="lblProxy" runat="server" Text=""></asp:Label>
+                            <a runat="server" id="A5" onserverclick="lnkProxyLogOut_ServerClick">
+                                <i class="fa fa-times" data-toggle="tooltip" data-placement="right" title="Logout"></i>
+                            </a>
+                        </span>
+                    </div>
+                    <ul class="navbar-nav navbar-right">
+                        <li>
+                            <div class="btn-group mb-3" role="group" aria-label="Basic example">
+                                <%--   <asp:LinkButton ID="lnkSecretarial" runat="server" class="btn btn-outline-primary" Text="Secretarial Team" OnClick="lnkEmployee_Click"></asp:LinkButton>--%>
+                                <asp:LinkButton ID="lnkEmployee" runat="server" class="btn btn-outline-primary" Text="Employee" OnClick="lnkEmployee_Click"></asp:LinkButton>
+                                <asp:LinkButton ID="lnkPresident" runat="server" class="btn btn-outline-primary" Text="President" OnClick="lnkPresident_Click"></asp:LinkButton>
+                                <asp:LinkButton ID="lnkHrHead" runat="server" class="btn btn-outline-primary" Text="HR Head" OnClick="lnkHrHead_Click"></asp:LinkButton>
+                                <asp:LinkButton ID="lnkAdmin" runat="server" class="btn btn-outline-primary" Text="Admin" OnClick="lnkAdmin_Click"></asp:LinkButton>
+                                <asp:LinkButton ID="lnksecretarial" runat="server" class="btn btn-outline-primary" Text="Secretarial Team" OnClick="lnksecretarial_Click"></asp:LinkButton>
+                                <asp:LinkButton ID="lnkchecker" runat="server" class="btn btn-outline-primary" Text="Checker" OnClick="lnkchecker_Click"></asp:LinkButton>
+
+                            </div>
+                        </li>
+                        <li class="dropdown dropdown-list-toggle">
+                            <%--<a href="#" data-toggle="dropdown"
+                                class="nav-link notification-toggle nav-link-lg"><i class="far fa-bell"></i><span class="notification-count bg-green">4</span></a>--%>
+                            <div class="dropdown-menu dropdown-list dropdown-menu-right">
+                                <div class="dropdown-header">
+                                    Notifications
+                           <div class="float-right">
+                               <a href="#">Mark All As Read</a>
+                           </div>
+                                </div>
+                                <div class="dropdown-list-content dropdown-list-icons">
+                                    <a href="#" class="dropdown-item dropdown-item-unread">
+                                        <span class="dropdown-item-icon l-bg-green text-white">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                        <span class="dropdown-item-desc">Grant Deatails
+                           <span class="time">8 Hours Ago</span>
+                                        </span>
+                                    </a>
+                                    <a href="#" class="dropdown-item dropdown-item-unread">
+                                        <span class="dropdown-item-icon l-bg-orange text-white">
+                                            <i class="fa fa-user-plus" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="dropdown-item-desc">Veseted Pending
+                           <span class="time">7 Hours Ago</span>
+                                        </span>
+                                    </a>
+                                    <a href="#" class="dropdown-item">
+                                        <span class="dropdown-item-icon l-bg-yellow text-white">
+                                            <i class="fa fa-server" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="dropdown-item-desc">Sell Details
+                           <span class="time">10 Hours Ago</span>
+                                        </span>
+                                    </a>
+                                    <a href="#" class="dropdown-item dropdown-item-unread">
+                                        <span class="dropdown-item-icon l-bg-green text-white">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </span>
+                                        <span class="dropdown-item-desc">Grant Deatails
+                           <span class="time">8 Hours Ago</span>
+                                        </span>
+                                    </a>
+                                    <a href="#" class="dropdown-item dropdown-item-unread">
+                                        <span class="dropdown-item-icon l-bg-orange text-white">
+                                            <i class="fa fa-user-plus" aria-hidden="true"></i>
+                                        </span>
+                                        <span class="dropdown-item-desc">Veseted Pending
+                           <span class="time">7 Hours Ago</span>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div class="dropdown-footer text-center">
+                                    <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="dropdown" style="margin-left: 15px;">
+                            <a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user imagediv">
+                                <%--<img alt="image" src="assets/img/users/user-6.png" class="user-img-radious-style">--%>
+                                <img alt="" src="" runat="server" id="imgLoad" class="user-img-radious-style" />
+                                <span class="d-sm-none d-lg-inline-block"></span></a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <div class="dropdown-title">Hello, <span id="spnUserName" runat="server"></span></div>
+                                <a href="Employee_profile" class="dropdown-item has-icon">
+                                    <i class="far fa-user"></i>Profile
+                                </a>
+                                <%--<a download href="#" id="Doc" runat="server" class="dropdown-item has-icon">--%> <%--style="display: none"--%>
+                                <a class="dropdown-item has-icon text-danger" runat="server" id="Doc" onserverclick="lnkDoc_ServerClick">
+                                    <i class="fa fa-book"></i>User Manual Docs
+                                </a>
+
+                                <%--<a class="dropdown-item has-icon text-danger" runat="server" id="lnkProxy" data-toggle="modal" data-target="#myModal" onclick="dropchange()">--%><%-- onserverclick="lnkProxy_ServerClick" --%>
+                                <a class="dropdown-item has-icon text-danger" runat="server" id="lnkProxy" onserverclick="lnkProxy_ServerClick">
+                                    <%--<asp:imagebutton id="btnpopup" runat="server" onclientclick="return openPopup()" xmlns:asp="#unknown" />--%>
+                                    <i class="fas fa-user-cog"></i>Login As
+                                </a>
+                                <a class="dropdown-item has-icon text-danger" runat="server" id="lnkProxyLogOut" onserverclick="lnkProxyLogOut_ServerClick" style="display: none">
+                                    <i class="fas fa-user-cog"></i>Admin Dasboard
+                                </a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item has-icon text-danger" runat="server" id="lnkLogout" onserverclick="lnkLogout_ServerClick">
+                                    <i class="fas fa-sign-out-alt"></i>Logout
+                                </a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="main-sidebar sidebar-style-2">
+                    <aside id="sidebar-wrapper">
+                        <div class="sidebar-brand">
+                            <a href="index-2.html">
+                                <!--<img alt="image" src="assets/img/logo.png" class="header-logo" />-->
+                                <span class="logo-name">ESOP</span>
+                            </a>
+                        </div>
+                        <ul class="sidebar-menu" id="Adminlnk" runat="server">
+                            <li class="menu-header">Main</li>
+                            <li runat="server" id="lnkHomes1"><a class="nav-link" href="admin-dashboard.aspx" runat="server" id="lnkHomes"><i class="fas fa-home"></i><span>Home</span></a></li>
+                            <li runat="server" id="lnkGrant1"><a class="nav-link" href="grants.aspx" runat="server" id="lnkGrant"><i class="fas fa-hand-holding-usd"></i><span>Grant</span></a></li>
+                            <li runat="server" id="lnkVesting1"><a class="nav-link" href="vesting-approval-admin.aspx" runat="server" id="lnkVesting"><i class="fas fa-calendar-check"></i><span>Vesting</span></a></li>
+                            <li runat="server" id="lnkadminExercise1"><a class="nav-link" href="Admin_exercise_Window.aspx" runat="server" id="lnkExercise"><i class="fas fa-shopping-bag"></i><span>Exercise</span></a></li>
+                            <li runat="server" id="lnkadminSale1"><a class="nav-link" href="Admin_SellWindow.aspx" runat="server" id="lnkSale"><i class="fas fa-chart-line"></i><span>Sale</span></a></li>
+                            <%--                            <li runat="server" id="lnkReport1"><a class="nav-link" href="#" runat="server" id="lnkReport"><i class="fas fa-chart-bar"></i><span>Reports</span></a></li>--%>
+                            <li runat="server" id="lnkReport2"><a class="nav-link" href="reports.aspx" runat="server" id="lnkReport3"><i class="fas fa-chart-bar"></i><span>Reports</span></a></li>
+
+                            <li runat="server" id="LnkLetterAdmin"><a class="nav-link" href="LetterList_TypeCommon.aspx" runat="server" id="A14"><i class="fas fa-envelope"></i><span>Letters</span></a></li>
+                            <%--<li runat="server" id="li7"><a onclick="openInNewTab('http://localhost:2311/LoginRB.aspx?');" id="a18"><i class="fas fa-table"></i><span>Report Builder</span></a></li>--%>
+
+                            <li runat="server" id="li7"><a onclick="ClickReportMenu();return false;" id="a18"><i class="fas fa-table"></i><span>Report Builder</span></a></li>
+                            <%--<li>
+                                <asp:LinkButton ID="navh8" runat="server" Style="border-radius: 0px 0 12px 0;" OnClientClick="ClickReportMenu();return false;">
+                                        <i class="fas fa-chart-bar"></i>
+                                        <span class="tooltip">Report Builder</span></asp:LinkButton>
+                            </li>--%>
+
+                            <li runat="server" id="lnkSetting1"><a class="nav-link" href="settings.aspx" runat="server" id="lnkSetting"><i class="far fa-sun"></i><span>Settings</span></a></li>
+                            <%-- <li runat="server" id="li7"><a onclick="openInNewTab('RT/LoginRB.aspx?');" id="A18"><i class="fas fa-table"></i><span>Report Builder</span></a></li>--%>
+                            <li runat="server" id="Li8"><a class="nav-link" href="Admin_Transaction_History.aspx" runat="server" id="A22"><i class="fas fa fa-history"></i><span>Admin Transaction History</span></a></li>
+
+                        </ul>
+                        <ul class="sidebar-menu" id="HRlnk" runat="server">
+                            <li class="menu-header">Main</li>
+                            <li runat="server" id="HR_HOMElnk"><a class="nav-link" href="HR-dashboard.aspx" runat="server" id="A1"><i class="fas fa-home"></i><span>Home</span></a></li>
+                            <li runat="server" id="HR_ApporvalLnk"><a class="nav-link" href="Hr_Approval.aspx" runat="server" id="A9"><i class="far fa-check-square"></i><span>Hr Approval</span></a></li>
+                            <li runat="server" id="HR_ReportsLnk"><a class="nav-link" href="Hr_Approval_Report" runat="server" id="A15"><i class="fas fa-chart-bar"></i><span>Reports</span></a></li>
+                            <li runat="server" id="HR_LetterLnk"><a class="nav-link" href="LetterList_TypeCommon.aspx" runat="server" id="A16"><i class="fas fa-envelope"></i><span>Letters</span></a></li>
+                        </ul>
+                        <ul class="sidebar-menu" id="Chklnk" runat="server">
+                            <li class="menu-header">Main</li>
+                            <%--<li runat="server" id="Chk_HOMElnk"><a class="nav-link" href="Checker-dashboard.aspx" runat="server" id="A20"><i class="fas fa-home"></i><span>Home</span></a></li>--%>
+                            <%--<li runat="server" id="Chk_ApporvalLnk"><a class="nav-link" href="Checker_Approve_Reject.aspx" runat="server" id="A25"><i class="far fa-check-square"></i><span>Checker Approval</span></a></li>--%>
+                            <li runat="server" id="Chk_ApporvalLnk"><a class="nav-link" href="Checker_Approvals.aspx" runat="server" id="A21"><i class="far fa-check-square"></i><span>Checker Approval</span></a></li>
+                            <%--<li runat="server" id="Chk_ReportsLnk"><a class="nav-link" href="Hr_Approval_Report" runat="server" id="A22"><i class="fas fa-chart-bar"></i><span>Reports</span></a></li>--%>
+                            <%--<li runat="server" id="Chk_LetterLnk"><a class="nav-link" href="LetterList_TypeCommon.aspx" runat="server" id="A23"><i class="fas fa-envelope"></i><span>Letters</span></a></li>--%>
+                        </ul>
+                        <ul class="sidebar-menu" id="Presidentlnk" runat="server">
+                            <li class="menu-header">Main</li>
+                            <li runat="server" id="PR_HOMElnk"><a class="nav-link" href="president-dashboard.aspx" runat="server" id="A2"><i class="fas fa-home"></i><span>Home</span></a></li>
+                            <li runat="server" id="PR_Grantlnk"><a href="approval.aspx" class="nav-link" runat="server" id="A3"><i class="fas fa-check-square"></i><span>Approvals</span></a>
+                                <li runat="server" id="Li5"><a class="nav-link" href="President_report.aspx" runat="server" id="A13"><i class="fas fa-chart-bar"></i><span>Reports</span></a></li>
+
+                            </li>
+                        </ul>
+                        <ul class="sidebar-menu" id="Employeelnk" runat="server">
+                            <li class="menu-header">Main</li>
+                            <li runat="server" id="Emp_HOMElnk"><a class="nav-link" href="employee-dashboard.aspx" runat="server" id="A4"><i class="fas fa-home"></i><span>Home</span></a></li>
+                            <li runat="server" id="Li1"><a class="nav-link" href="employee-exercise_new" runat="server" id="A7"><i class="fas fa-shopping-bag"></i><span>Exercise</span></a></li>
+                            <li runat="server" id="Li2"><a class="nav-link" href="employee-sale.aspx" runat="server" id="A8"><i class="fas fa-chart-line"></i><span>Sale</span></a></li>
+                            <li runat="server" id="Emp_Reportslnk"><a class="nav-link" href="Employee_report.aspx" runat="server" id="A6"><i class="fas fa-chart-bar"></i><span>Reports</span></a></li>
+                            <%--                            <li runat="server" id="lnkLetter1"><a class="nav-link" href="LetterConfiguration.aspx" runat="server" id="lnkLetter"><i class="fas fa-envelope"></i><span>Letters</span></a></li>--%>
+
+                            <li runat="server" id="Emp_Letterslnk"><a class="nav-link" href="LetterList_Type.aspx" runat="server" id="A12"><i class="fas fa-envelope"></i><span>Letters</span></a></li>
+                            <li runat="server" id="Emp_SharedReport"><a class="nav-link" href="SharedReport.aspx" runat="server" id="A19"><i class="fas fa-share-alt"></i><span>Shared Report</span></a></li>
+                            <li runat="server" id="Li10"><a class="nav-link" href="Employee_Transaction_History.aspx" runat="server" id="A24"><i class="fas fa fa-history"></i><span>Employee Transaction History</span></a></li>
+
+                        </ul>
+
+                        <ul class="sidebar-menu" id="SecretialLnk" runat="server">
+                            <li class="menu-header">Main</li>
+                            <li runat="server" id="Li3"><a class="nav-link" href="Secretarial_Dashboard.aspx" runat="server" id="A10"><i class="fas fa-home"></i><span>Home</span></a></li>
+                            <li runat="server" id="Li6"><a class="nav-link" href="Secretarial_Approvals.aspx" runat="server" id="A20"><i class="fas fa-check-square"></i><span>Approvals</span></a></li>
+                            <li runat="server" id="Li4"><a class="nav-link" href="exercise-report.aspx" runat="server" id="A11"><i class="fas fa-chart-bar"></i><span>Report</span></a></li>
+                            <li runat="server" id="Secretial_Letterslnk"><a class="nav-link" href="LetterList_TypeCommon.aspx" runat="server" id="A17"><i class="fas fa-envelope"></i><span>Letters</span></a></li>
+                            <li runat="server" id="Li9"><a class="nav-link" href="Admin_Transaction_History.aspx" runat="server" id="A23"><i class="fas fa fa-history"></i><span>Admin Transaction History</span></a></li>
+                        </ul>
+                    </aside>
+                </div>
+                <!-- Main Content -->
+                <div class="main-content" style="padding-top: 40px; padding-left: 40px; padding-right: 10px;">
+                    <%--<nav aria-label="breadcrumb" class="offset-md-9">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="grants.html">Settings</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Grant Creation</li>
+                        </ol>
+                    </nav>--%>
+                    <%--<section class="section">
+                    </section>--%>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal bd-example-modal-lg" id="myModal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-lg">
+                <!-- Modal content-->
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="myLargeModalLabel">Proxy</h5>
+                        <%-- <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">×</span>
+                        </button>--%>
+                    </div>
+
+                    <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+                        <ContentTemplate>
+
+
+                        <div class="modal-body">
+                                <div class="row">
+                                    <!--Sweet alert-->
+                                    <div class="col-lg-12 col-md-12 col-sm-12 all">
+                                        <div class="form-group row">
+                                            <%--<label for="DropDownList1" class="col-sm-2 col-form-label">Username</label>--%>
+                                            <asp:Label ID="lbl_text" runat="server"></asp:Label>
+                                            <div class="col-sm-6">
+                                                <%--<asp:DropDownList ID="ddlUserName" runat="server" CssClass="form-control"></asp:DropDownList>--%>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="DivFilter" runat="server" class="">
+                                    <div class="row" style="border: 1px solid #d3d3d3e6; padding: 10px; box-shadow: 0 0 6px rgb(0 0 0 / 35%);">
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <%--<input type="text" class="form-control" />--%>
+                                                <asp:TextBox ID="txtEmpCode" runat="server" class="form-control" MaxLength="20" placeholder="Employee Code"></asp:TextBox>
+                                                <%--onkeypress='return event.charCode >= 48 && event.charCode <= 57'--%>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <%--<input type="text" class="form-control" />--%>
+                                                <asp:TextBox ID="txtEmpName" runat="server" class="form-control" placeholder="Employee Name"></asp:TextBox>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <asp:DropDownList ID="ddlDept" runat="server" CssClass="form-control" AutoPostBack="false" placeholder="Departments">
+                                                </asp:DropDownList>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <asp:DropDownList ID="ddlBand" runat="server" CssClass="form-control" placeholder="Band">
+                                                </asp:DropDownList>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-4">
+                                            <div class="form-group">
+                                                <asp:DropDownList ID="ddlLocation" runat="server" CssClass="form-control" placeholder="Location">
+                                                </asp:DropDownList>
+                                            </div>
+                                        </div>
+                                        <%--<div class="col-md-3">
+                                            <div class="form-group">
+                                                <asp:DropDownList ID="ddlHOD" runat="server" CssClass="form-control">
+                                                </asp:DropDownList>
+                                                <label>
+                                                    HOD</label>
+                                            </div>
+                                        </div>--%>
+                                        <div class="clearfix">
+                                        </div>
+                                        <div class="col-md-12 text-right">
+                                            <div class="row" style="float:right">
+                                                <ul class="list-unstyled list-inline">
+                                                    <li class="list-inline-item">
+                                                        <asp:Button ID="btnFilter_1" runat="server" class="modalbutton btn btn-info btn-lg all" Text="Apply Filters" OnClick="btnFilter_Click_1" />
+                                                    </li>
+                                                    <li class="list-inline-item"> 
+                                                        <asp:Button ID="Button1" runat="server" class="modalbutton btn btn-info btn-lg all" Text="Clear" OnClick="btnClear_Click" />
+                                                    </li>
+                                                </ul>
+                                                <%-- <div class="col-md-3">--%>
+                                                    
+                                                <%--  </div>                                              
+                                                <div class="col-md-2">--%>
+                                                    
+                                                <%--</div>--%>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div id="divDdlEmp" style="padding-left: 30px; padding-right:30px" runat="server">
+                                <div id="tablediv">
+                                    <div class="">
+                                        <div id="accordion">
+                                            <asp:GridView ID="grdData" CssClass="table goaltable myemptable" Style="border-collapse: separate; margin-bottom: 15px;" runat="server"
+                                                AutoGenerateColumns="False" DataKeyNames="ecode" AllowPaging="True" AllowSorting="True" BorderWidth="0"
+                                                OnPageIndexChanging="grdData_PageIndexChanging"
+                                                EmptyDataText="No data found">
+                                                <Columns>
+
+                                                    <%--<asp:TemplateField HeaderText="ecode" ItemStyle-HorizontalAlign="Center" HeaderStyle-CssClass="hideGridColumn" ItemStyle-CssClass="hideGridColumn" HeaderStyle-Font-Bold="true">
+                                                            <ItemTemplate>
+                                                                <asp:Label ID="lbl_ecode" runat="server" Text='<%#Eval("ecode") %>' Style="display: none">></asp:Label>
+                                                            </ItemTemplate>
+                                                        </asp:TemplateField>--%>
+
+                                                    <asp:TemplateField HeaderText="Action" ItemStyle-HorizontalAlign="Center" ItemStyle-Width="20px">
+                                                        <ItemTemplate>
+                                                            <asp:RadioButton ID="rdbProxy" runat="server" onclick="RadioCheck(this);" />
+                                                            <asp:HiddenField ID="HiddenField1" runat="server" Value='<%#Eval("ecode")%>' />
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+
+                                                    <asp:TemplateField HeaderText="Sr. No." ItemStyle-HorizontalAlign="Center" HeaderStyle-CssClass="text-nowrap" HeaderStyle-Font-Bold="true" ItemStyle-Width="20px">
+                                                        <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" Wrap="True" />
+                                                        <ItemTemplate>
+                                                            <asp:Label ID="lbl_Srno" runat="server" Text='<%#Eval("Srno") %>'></asp:Label>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Employee Code" HeaderStyle-CssClass="text-nowrap" HeaderStyle-Font-Bold="true">
+                                                        <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" Wrap="True" />
+                                                        <ItemTemplate>
+                                                            <asp:Label ID="lbl_emp_Code" runat="server" Text='<%#Eval("ecode") %>'></asp:Label>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Employee Name" HeaderStyle-CssClass="text-nowrap" HeaderStyle-Font-Bold="true">
+                                                        <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" Wrap="True" />
+                                                        <ItemTemplate>
+                                                            <asp:Label ID="lbl_emp_name" runat="server" Text='<%#Eval("emp_name") %>'></asp:Label>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Department" HeaderStyle-CssClass="text-nowrap" HeaderStyle-Font-Bold="true">
+                                                        <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" Wrap="True" />
+                                                        <ItemTemplate>
+                                                            <asp:Label ID="lbl_department" runat="server" Text='<%#Eval("department") %>'></asp:Label>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                    <asp:TemplateField HeaderText="Band" HeaderStyle-CssClass="text-nowrap" HeaderStyle-Font-Bold="true">
+                                                        <ItemStyle HorizontalAlign="Left" VerticalAlign="Top" Wrap="True" />
+                                                        <ItemTemplate>
+                                                            <asp:Label ID="lbl_bands" runat="server" Text='<%#Eval("bands") %>'></asp:Label>
+                                                        </ItemTemplate>
+                                                    </asp:TemplateField>
+                                                </Columns>
+                                                <PagerSettings FirstPageText="First" LastPageText="Last" NextPageText="Next" PreviousPageText="Previous" />
+
+                                                <PagerStyle CssClass="text-right border-pagination" />
+                                            </asp:GridView>
+                                            <div class="clearfix"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <asp:UpdatePanel runat="server">
+                                <ContentTemplate>
+                                    <div class="modal-footer br" style="float:left;">
+                                        <div class="btn-group" role="group" aria-label="Basic example" style="margin: 0 auto;">
+                                            <%--<a href="#" class="btn btn-info btn-lg all" id="btnimport">Submit</a>--%>
+                                            <asp:Button ID="btnProxyLogin" runat="server" class="btn btn-info btn-lg all" Text="Proxy Login" OnClick="btnProxyLogin_Click" />
+                                            <%--<asp:Button ID="btnCancelProxy" runat="server" data-dismiss="modal" Text="Cancel" class="btn btn-info btn-lg all" />--%>
+                                            <%--<a href="#" class="btn btn-info btn-lg all" id="btnimport">Submit</a>--%>
+                                            <%--<asp:Button ID="btnFilter" runat="server" class="btn btn-info btn-lg all" Text="Filter" OnClick="btnFilter_Click" />--%>
+                                            <%-- <asp:Button ID="btnClose" runat="server" class="btn btn-info btn-lg all" Text="Close" OnClick="btnClose_Click" />--%>
+                                            <a href="#" class="btn btn-info btn-lg all CloseBtnNew" data-dismiss="modal">Close</a>
+                                        </div>
+
+                                    </div>
+                                </ContentTemplate>
+                            </asp:UpdatePanel>
+                        </ContentTemplate>
+                        <%--<Triggers>
+                            <asp:AsyncPostBackTrigger ControlID="btnFilter" />
+                        </Triggers>--%>
+                    </asp:UpdatePanel>
+                </div>
+            </div>
+        </div>
+    </form>
+</body>
+
+
+
+
+<script src="assets/js/chosen.jquery-1.8.7.min.js" type="text/javascript"></script>
+<link href="assets/css/chosen-1.8.7.min.css" rel="stylesheet" />
+<%--<script>
+
+
+    jQuery(function () {
+
+        // $.noConflict();
+        jQuery('#<%=ddlUserName.ClientID%>').chosen();
+
+
+        var prm = Sys.WebForms.PageRequestManager.getInstance();
+
+        prm.add_endRequest(function (sender, e) {
+            jQuery('#<%=ddlUserName.ClientID%>').chosen();
+        });
+    });
+
+</script>--%>
+
+<script type="text/javascript">
+    Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(BeginRequest);
+    function BeginRequest(sender, e) {
+        //e.get_postBackElement().disabled = true;
+    }
+</script>
+
+<script>
+    //$(function () {
+    //    $('[data-toggle="tooltip"]').tooltip()
+    //})
+</script>
+<script type="text/javascript">
+    function RadioCheck(rb) {
+        var gv = document.getElementById("<%=grdData.ClientID%>");
+        var rbs = gv.getElementsByTagName("input");
+        var row = rb.parentNode.parentNode;
+        for (var i = 0; i < rbs.length; i++) {
+            if (rbs[i].type == "radio") {
+                if (rbs[i].checked && rbs[i] != rb) {
+                    rbs[i].checked = false;
+                    break;
+                }
+            }
+        }
+    }
+</script>
+<script type="text/javascript">
+    function ClickReportMenu() {
+        debugger;
+
+       <%-- var objId = '<%= Session["LoginId_encrypt"].ToString() %>';
+         var objPs = '<%= Session["LoginPassword_encrypt"].ToString() %>';
+        var objCon = '<%= Session["ConStr_encrypt"].ToString() %>';--%>
+
+        var objId = '<%=Convert.ToString(Session["LoginId_encrypt"])%>';
+        var objPs = '<%= Convert.ToString(Session["LoginPassword_encrypt"]) %>';
+        var objCon = '<%= Convert.ToString(Session["ConStr_encrypt"]) %>';
+        window.open("http://localhost:2311/LoginRB.aspx?UserName=" + objId + "&Pass=" + objPs + "&ConString=" + objCon, '_blank').focus();
+
+    }
+</script>
+</html>

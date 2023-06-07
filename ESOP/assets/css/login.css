@@ -1,0 +1,490 @@
+/*$bggradient : linear-gradient(to bottom, #7335b0, #9030a7, #a72d9e, #ba2d93, #c93289);*/
+
+.form-control::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  color: #bcbcbc;
+}
+
+.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #bcbcbc;
+}
+
+.form-control:-ms-input-placeholder {
+  /* IE 10+ */
+  color: #bcbcbc;
+}
+
+.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  color: #bcbcbc;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #2e4057;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #888;
+}
+
+.content-a {
+  width: 100%;
+  height: 100%;
+  /*overflow: hidden;*/
+  display: table;
+}
+
+.content-b {
+  display: table-cell;
+  position: relative;
+  vertical-align: middle;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-size: cover;
+  background-color: #fbfbfb;
+}
+
+.logindiv {
+  display: table;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.logindiv .innerdiv {
+  display: table-row;
+  height: 100%;
+}
+
+.logindiv .innerdiv .leftdiv {
+  display: table-cell;
+  height: 100%;
+  background-color: #f7f7f7;
+  width: 50%;
+}
+
+.logindiv .innerdiv .rightdiv {
+  display: table-cell;
+  height: 100%;
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  background: url("https://images.pexels.com/photos/2332257/pexels-photo-2332257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+.logindiv .innerdiv .rightdiv:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  opacity: 0.8;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+.logindiv .innerdiv .rightdiv .textdiv {
+  position: relative;
+  z-index: 1;
+  background: #334c94;
+  display: inline-block;
+  padding: 15px 0 5px;
+  border-radius: 0px 0px 70px 0px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.31);
+  -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.31);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.31);
+}
+
+.logindiv .innerdiv .rightdiv .textdiv li {
+  vertical-align: top;
+}
+
+.logindiv .innerdiv .rightdiv .textdiv img {
+  margin: 0px 0 0 15px;
+}
+
+.logindiv .innerdiv .rightdiv .textdiv p {
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0 0 0 5%;
+  width: 260px;
+  color: rgba(255, 255, 255, 0.709804);
+  position: relative;
+  z-index: 1;
+  letter-spacing: 0.3px;
+  margin: 7px 0 10px;
+  line-height: 14px;
+}
+
+.logindiv .innerdiv .rightdiv .textdiv h2 {
+  font-size: 46px;
+  font-weight: 700;
+  padding: 3% 0 0 0%;
+  width: 197px;
+  color: white;
+  font-family: 'Kalam', cursive;
+  position: relative;
+  z-index: 1;
+  letter-spacing: -0.3px;
+  margin: 0px;
+}
+
+.logindiv .maindiv {
+  position: absolute;
+  top: 10%;
+  height: 80%;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background: #fff;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.121569);
+  -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.121569);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.121569);
+  padding: 0;
+}
+
+.logindiv .maindiv .listmenu {
+  position: absolute;
+  top: 9%;
+  left: -37px;
+  z-index: 21;
+}
+
+.logindiv .maindiv .listmenu li {
+  background: #fff;
+  margin: 0 0 15px;
+  border-radius: 50%;
+  text-align: center;
+  color: #000;
+  width: 75px;
+  height: 75px;
+  padding: 16px 0;
+}
+
+.logindiv .maindiv .listmenu li img {
+  width: 25px;
+}
+
+.logindiv .maindiv .listmenu li h2 {
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.2px;
+  margin: 5px 0 0 0;
+}
+
+.logindiv .maindiv .listmenu li a[data-tooltip].left:before,
+.logindiv .maindiv .listmenu li a[data-tooltip].left:after {
+  transform: translateX(0px);
+}
+
+.logindiv .maindiv .listmenu li a[data-tooltip].left:hover:after,
+.logindiv .maindiv .listmenu li a[data-tooltip].left:hover:before {
+  transform: translateX(-10px);
+}
+
+.logindiv .maindiv .listmenu li a[data-tooltip] {
+  position: relative;
+  display: block;
+}
+
+.logindiv .maindiv .listmenu li a[data-tooltip]:after,
+.logindiv .maindiv .listmenu li a[data-tooltip]:before {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  transition: transform 200ms ease, opacity 200ms;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 99;
+}
+
+.logindiv .maindiv .listmenu li a[data-tooltip]:before {
+  content: attr(data-tooltip);
+  background: #000;
+  color: #fff;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 10px 15px;
+  border-radius: 5px;
+  white-space: nowrap;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.logindiv .maindiv .listmenu li a[data-tooltip]:after {
+  width: 0;
+  height: 0;
+  border: 6px solid transparent;
+  content: '';
+}
+
+.logindiv .maindiv .listmenu li a[data-tooltip]:hover:after,
+.logindiv .maindiv .listmenu li a[data-tooltip]:hover:before {
+  visibility: visible;
+  opacity: 0.85;
+  transform: translateY(0px);
+}
+
+.logindiv .maindiv .listmenu li a[data-tooltip][data-position="left"]:before {
+  top: 8%;
+  right: 100%;
+  margin-right: 10px;
+}
+
+.logindiv .maindiv .listmenu li a[data-tooltip][data-position="left"]:after {
+  border-left-color: #000;
+  border-right: none;
+  top: calc(50% - 3px);
+  right: 100%;
+  margin-top: -6px;
+  margin-right: 4px;
+}
+
+.logindiv .maindiv .leftdiv {
+  width: 50%;
+  height: 100%;
+  padding: 0 45px;
+}
+
+.logindiv .maindiv .leftdiv h1 {
+  margin-top: -10px;
+  color: #dc0812;
+  font-size: 80px;
+  font-family: "Kirang Haerang", cursive;
+}
+
+.logindiv .maindiv .leftdiv h3 {
+  font: 600 17px "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.logindiv .maindiv .leftdiv p {
+  font: 400 11px "Montserrat", sans-serif;
+  letter-spacing: 0.3px;
+  color: darkgray;
+  margin: 0 0 30px;
+}
+
+.logindiv .maindiv .leftdiv .loginbtn {
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  color: #fff;
+  padding: 15px 45px;
+  font-size: 13px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  margin: 15px 0 0;
+  border: 0;
+}
+
+.logindiv .maindiv .rightdiv {
+  height: 100%;
+  background: url("https://images.pexels.com/photos/2332257/pexels-photo-2332257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") no-repeat;
+  background-size: cover;
+  position: relative;
+  z-index: 9;
+  padding: 0px 40px 0px 80px;
+  -webkit-border-radius: 6px 0 0 6px;
+  -moz-border-radius: 6px 0 0 6px;
+  border-radius: 6px 0 0 6px;
+}
+
+.logindiv .maindiv .rightdiv:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  opacity: 0.8;
+  -webkit-border-radius: 5px 0 0 5px;
+  -moz-border-radius: 5px 0 0 5px;
+  border-radius: 5px 0 0 5px;
+}
+
+.logindiv .maindiv .rightdiv img {
+  position: relative;
+  z-index: 1;
+}
+
+.logindiv .maindiv .rightdiv h2 {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  font: 600 27px/25px "Montserrat", sans-serif;
+  margin: 20px 0 5px;
+}
+
+.logindiv .maindiv .rightdiv p {
+  color: #fff;
+  position: relative;
+  z-index: 1;
+  font: 500 10px "Montserrat", sans-serif;
+  letter-spacing: 0.3px;
+}
+
+.logindiv .contentdiv {
+  position: absolute;
+  top: 10%;
+  height: 80%;
+  right: 0;
+}
+
+.logindiv .contentdiv h1 {
+  margin-top: -10px;
+  color: #dc0812;
+  font-size: 80px;
+  font-family: 'Kirang Haerang', cursive;
+}
+
+.logindiv .contentdiv h3 {
+  font: 600 17px "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+  margin-bottom: 5px;
+}
+
+.logindiv .contentdiv p {
+  font: 400 15px "Montserrat", sans-serif;
+  letter-spacing: 0.5px;
+  color: black;
+  margin: 20px 0 30px;
+}
+
+.logindiv .contentdiv .loginbtn {
+  background-image: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+  color: #fff;
+  padding: 15px 45px;
+  font-size: 13px;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  margin: 15px 0 0;
+  border: 0;
+}
+
+.logindiv .contentdiv .searchdiv {
+  position: relative;
+  margin-bottom: 50px;
+}
+
+.logindiv .contentdiv .searchdiv .fa-search {
+  position: absolute;
+  top: 12px !important;
+  right: 10px !important;
+  font-size: 23px;
+  color: #6b6b6b;
+  left: auto;
+  z-index: 9;
+}
+
+.logindiv .contentdiv .searchdiv .form-control {
+  background: #fff;
+  border: 0 !important;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.121569);
+  -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.121569);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.121569);
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  border-radius: 50px;
+}
+
+.logindiv .contentdiv small {
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}
+
+.logindiv .icon {
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  color: #000;
+  -webkit-mask: url("http://geekstudios.co/testing/assets/svg/logo.svg") no-repeat center;
+  mask: url("http://geekstudios.co/testing/assets/svg/logo.svg") no-repeat left center;
+  -webkit-mask-size: 45px;
+  mask-size: 45px;
+  background: #dc0812;
+}
+
+.logindiv .form-group {
+  position: relative;
+}
+
+.logindiv .form-group .form-control {
+  font: 500 12px "Montserrat", sans-serif;
+  border: 2px solid #eee;
+  height: 48px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: rgba(255, 255, 255, 0);
+  padding-left: 30px;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  letter-spacing: 0.2px;
+  position: relative;
+  z-index: 1;
+  -webkit-transition: 0.3s;
+  -o-transtion: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.logindiv .form-group .form-control:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border-color: #a2a2a2;
+}
+
+.logindiv .form-group .form-control~label {
+  position: absolute;
+  left: 10px;
+  top: -6px;
+  font: 500 10px "Montserrat", sans-serif !important;
+  letter-spacing: 0.5px !important;
+  color: darkgray;
+  margin-bottom: 0px !important;
+  padding: 0 10px;
+  background: #fff !important;
+  z-index: 1;
+  -webkit-transition: 0.3s;
+  -o-transtion: 0.3s;
+  -moz-transition: 0.3s;
+  transition: 0.3s;
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+  letter-spacing: 0.3px;
+}
+
+.logindiv .form-group i {
+  color: #bcbcbc;
+  position: absolute;
+  bottom: 16px;
+  left: 10px;
+} 

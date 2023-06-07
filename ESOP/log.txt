@@ -1,0 +1,18 @@
+Message :ORA-12638: Credential retrieval failed
+<br/>
+StackTrace :   at System.Data.OracleClient.OracleException.Check(OciErrorHandle errorHandle, Int32 rc)
+   at System.Data.OracleClient.OracleInternalConnection.OpenOnLocalTransaction(String userName, String password, String serverName, Boolean integratedSecurity, Boolean unicode, Boolean omitOracleConnectionName)
+   at System.Data.OracleClient.OracleInternalConnection..ctor(OracleConnectionString connectionOptions)
+   at System.Data.OracleClient.OracleConnectionFactory.CreateConnection(DbConnectionOptions options, Object poolGroupProviderInfo, DbConnectionPool pool, DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(DbConnection owningConnection, DbConnectionPool pool, DbConnectionOptions options)
+   at System.Data.ProviderBase.DbConnectionPool.CreateObject(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.UserCreateRequest(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionPool.GetConnection(DbConnection owningObject)
+   at System.Data.ProviderBase.DbConnectionFactory.GetConnection(DbConnection owningConnection)
+   at System.Data.ProviderBase.DbConnectionClosed.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.OracleClient.OracleConnection.Open()
+   at ESOP_DAL.UserDAL.chkLoginCredential(cUserEntityRequest request) in D:\Ayush\ESOP_RBT_Live\ESOP_DAL\UserDAL.cs:line 103
+   at ESOP_BAL.UserBAL.chkLoginCredential(cUserEntityRequest request) in D:\Ayush\ESOP_RBT_Live\ESOP_BAL\UserBAL.cs:line 53
+   at ESOP.Login.btnLogin_Click(Object sender, EventArgs e) in D:\Ayush\ESOP_RBT_Live\ESOP\Login.aspx.cs:line 52
+Date :6/2/2023 11:53:47 AM
+-----------------------------------------------------------------------------
